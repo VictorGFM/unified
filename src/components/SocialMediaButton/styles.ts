@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import { COLORS } from '../../styles/global'
 
-export const SocialMediaButtonDiv = styled.div`
+export const SocialMediaButtonDiv = styled.div<{ isSelected: boolean }>`
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10,7 +10,7 @@ export const SocialMediaButtonDiv = styled.div`
   height: 70px;
   border-bottom: 1px solid ${COLORS.GREY.THREE};
 
-  background-color: ${COLORS.WHITE.ONE};
+  background-color: ${({ isSelected }) => (isSelected ? COLORS.PURPLE.TWO : COLORS.WHITE.ONE)};
   cursor: pointer;
   &:hover {
     background-color: ${COLORS.PURPLE.TWO};
@@ -29,5 +29,4 @@ export const SelectedBar = styled.div`
   height: 70px;
 
   background-color: ${COLORS.PURPLE.ONE};
-  display: none;
 `

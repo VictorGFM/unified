@@ -17,7 +17,7 @@ const SocialMediaBar = () => {
   return (
     <SocialMediaBarDiv>
       <SocialMediaButtonsDiv>
-        <SocialMediaButton icon={AppIcon} />
+        <SocialMediaButton icon={AppIcon} isSelected />
         <SocialMediaButton icon={InstagramIcon} />
         <SocialMediaButton icon={TwitterIcon} />
         <SocialMediaButton icon={FacebookIcon} />

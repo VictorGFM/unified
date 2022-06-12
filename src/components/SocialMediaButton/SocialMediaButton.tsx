@@ -1,10 +1,15 @@
 import { SocialMediaButtonDiv, SelectedBar, Icon } from './styles'
 
-const SocialMediaButton = ({ icon }) => {
+interface SocialMediaButtonProps {
+  icon: string
+  isSelected?: boolean
+}
+
+const SocialMediaButton = ({ icon, isSelected }: SocialMediaButtonProps) => {
   return (
-    <SocialMediaButtonDiv>
+    <SocialMediaButtonDiv isSelected={isSelected}>
       <Icon src={icon} />
-      <SelectedBar />
+      {isSelected && <SelectedBar />}
     </SocialMediaButtonDiv>
   )
 }

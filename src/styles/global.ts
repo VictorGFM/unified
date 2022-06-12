@@ -16,6 +16,9 @@ export const COLORS = {
     FOUR: '#E4E6EB',
     FIVE: '#EEEEEE',
   },
+  RED: {
+    ONE: '#F83F3F',
+  },
 }
 
 export const PRIMARY_COLOR = COLORS.PURPLE.ONE

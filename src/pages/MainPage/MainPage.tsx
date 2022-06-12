@@ -5,8 +5,8 @@ import SocialMediaBar from '../../components/SocialMediaBar'
 const MainPage = () => {
   return (
     <MainPageDiv>
-      <SocialMediaBar />
       <Header />
+      <SocialMediaBar />
     </MainPageDiv>
   )
 }

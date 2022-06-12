@@ -17,11 +17,11 @@ const Header = () => {
         <SpaceDiv />
         <Logo src={AppLogo} />
         <ButtonsDiv>
-          <HeaderButton icon={HomeIcon} />
+          <HeaderButton icon={HomeIcon} isSelected />
           <HeaderButton icon={GroupsIcon} />
           <HeaderButton icon={ContactsIcon} />
-          <HeaderButton icon={MessagesIcon} />
-          <HeaderButton icon={NotificationsIcon} />
+          <HeaderButton icon={MessagesIcon} notificationsNumber={31} />
+          <HeaderButton icon={NotificationsIcon} notificationsNumber={31} />
           <HeaderButton icon={ProfilePhotoIcon} />
         </ButtonsDiv>
       </HeaderDiv>

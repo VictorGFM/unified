@@ -8,6 +8,7 @@ export const HeaderDiv = styled.div`
 
   width: 100%;
   height: 70px;
+  box-sizing: border-box;
   border-bottom: 1px solid ${COLORS.GREY.THREE};
 
   background-color: ${COLORS.WHITE.ONE};

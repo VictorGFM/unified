@@ -15,6 +15,7 @@ export const COLORS = {
     THREE: '#A4A4A4',
     FOUR: '#E4E6EB',
     FIVE: '#EEEEEE',
+    SIX: '#F2F2F2',
   },
   RED: {
     ONE: '#F83F3F',

@@ -1,3 +1,3 @@
-import StoriesBarDiv from './StoriesBar'
+import StoriesBar from './StoriesBar'
 
-export default StoriesBarDiv
+export default StoriesBar

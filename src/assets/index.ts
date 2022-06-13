@@ -10,6 +10,9 @@ import InstagramIcon from './icons/InstagramIcon.svg'
 import TwitterIcon from './icons/TwitterIcon.svg'
 import FacebookIcon from './icons/FacebookIcon.svg'
 import ToggleSocialBarIcon from './icons/ToggleSocialBarIcon.svg'
+import FilterIcon from './icons/FilterIcon.svg'
+import SearchIcon from './icons/SearchIcon.svg'
+import ArrowIcon from './icons/ArrowIcon.svg'
 
 export {
   AppLogo,
@@ -24,4 +27,7 @@ export {
   TwitterIcon,
   FacebookIcon,
   ToggleSocialBarIcon,
+  FilterIcon,
+  SearchIcon,
+  ArrowIcon,
 }

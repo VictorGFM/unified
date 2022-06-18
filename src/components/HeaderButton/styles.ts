@@ -15,7 +15,7 @@ export const Button = styled.div<{ isUserProfile: boolean; isSelected: boolean }
 
   width: 46px;
   height: 46px;
-  border-radius: 25px;
+  border-radius: 100%;
 
   background-color: ${({ isSelected }) => (isSelected ? COLORS.PURPLE.TWO : COLORS.GREY.FOUR)};
   cursor: pointer;

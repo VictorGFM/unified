@@ -9,10 +9,10 @@ export const StoriesBarDiv = styled.div`
 
   width: 600px;
   height: 80px;
-  margin-top: 15px;
+  border: solid ${COLORS.GREY.THREE} 1px;
+  margin: 15px 0px;
 
   background-color: ${COLORS.WHITE.ONE};
-  border: solid ${COLORS.GREY.THREE} 1px;
   border-radius: 7px;
   box-sizing: border-box;
 `

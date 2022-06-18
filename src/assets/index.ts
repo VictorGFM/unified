@@ -13,6 +13,13 @@ import ToggleSocialBarIcon from './icons/ToggleSocialBarIcon.svg'
 import FilterIcon from './icons/FilterIcon.svg'
 import SearchIcon from './icons/SearchIcon.svg'
 import ArrowIcon from './icons/ArrowIcon.svg'
+import AlfredoPhotoIcon from './icons/AlfredoPhotoIcon.svg'
+import ContactPhotoIcon from './icons/ContactPhotoIcon.svg'
+import LikeIcon from './icons/LikeIcon.svg'
+import CommentIcon from './icons/CommentIcon.svg'
+import ShareIcon from './icons/ShareIcon.svg'
+
+import AndromedaImage from './images/AndromedaImage.png'
 
 export {
   AppLogo,
@@ -30,4 +37,10 @@ export {
   FilterIcon,
   SearchIcon,
   ArrowIcon,
+  AlfredoPhotoIcon,
+  ContactPhotoIcon,
+  LikeIcon,
+  CommentIcon,
+  ShareIcon,
+  AndromedaImage,
 }

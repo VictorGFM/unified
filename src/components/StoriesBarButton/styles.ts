@@ -8,7 +8,6 @@ export const StoriesBarButtonDiv = styled.div<{ direction: string }>`
 
   height: 25px;
 
-  background-color: yellow;
   cursor: pointer;
 
   ${({ direction }) =>

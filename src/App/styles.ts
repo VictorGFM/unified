@@ -11,9 +11,6 @@ export const AppDiv = styled.div`
 `
 
 export const ContentDiv = styled.div`
-  /* width: 100%;
-height: 300px; */
-
   background-color: ${COLORS.GREY.SIX};
 
   overflow: auto;

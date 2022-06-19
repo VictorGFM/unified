@@ -18,6 +18,7 @@ import ContactPhotoIcon from './icons/ContactPhotoIcon.svg'
 import LikeIcon from './icons/LikeIcon.svg'
 import CommentIcon from './icons/CommentIcon.svg'
 import ShareIcon from './icons/ShareIcon.svg'
+import CheckIcon from './icons/CheckIcon.svg'
 
 import AndromedaImage from './images/AndromedaImage.png'
 
@@ -43,4 +44,5 @@ export {
   CommentIcon,
   ShareIcon,
   AndromedaImage,
+  CheckIcon,
 }

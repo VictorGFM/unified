@@ -1,9 +1,9 @@
 import styled from 'styled-components'
 import { COLORS } from '../../styles/global'
 
-export const FilterBarDiv = styled.div`
+export const FilterBarDiv = styled.div<{ isOpen: boolean }>`
   display: flex;
-  align-items: center;
+  flex-direction: column;
 
   width: 600px;
   height: 56px;
@@ -13,6 +13,19 @@ export const FilterBarDiv = styled.div`
   border: solid ${COLORS.GREY.THREE} 1px;
   border-radius: 7px;
   box-sizing: border-box;
+
+  ${({ isOpen }) =>
+    isOpen &&
+    `
+    height: 200px;
+  `}
+`
+
+export const FilterBarHeader = styled.div`
+  display: flex;
+  align-items: center;
+
+  margin-top: 7px;
 `
 
 export const SearchBarDiv = styled.div`
@@ -78,4 +91,16 @@ export const FilterButton = styled.div`
 export const FilterButtonIcon = styled.img`
   width: 30px;
   height: 30px;
+`
+
+export const FilterOptions = styled.div<{ isOpen: boolean }>`
+  display: flex;
+  justify-content: space-between;
+
+  margin: 14px 63px 0px 23px;
+  ${({ isOpen }) =>
+    !isOpen &&
+    `
+    display: none;
+  `}
 `

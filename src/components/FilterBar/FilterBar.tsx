@@ -6,21 +6,42 @@ import {
   SearchButtonIcon,
   FilterButton,
   FilterButtonIcon,
+  FilterOptions,
+  FilterBarHeader,
 } from './styles'
 import { SearchIcon, FilterIcon } from '../../assets'
+import { useState } from 'react'
+import FiltersGroup from '../FiltersGroup'
+import { Filters } from './data'
+import { Filter } from '../FiltersGroup/FiltersGroup'
+
+export interface FiltersGroupsData {
+  Posts: Filter[]
+  Groups: Filter[]
+  Others: Filter[]
+}
 
 const FilterBar = () => {
+  const [isOpen, setIsOpen] = useState(false)
+
   return (
-    <FilterBarDiv>
-      <SearchBarDiv>
-        <SearchBar placeholder="Search..." />
-        <SearchButton>
-          <SearchButtonIcon src={SearchIcon} />
-        </SearchButton>
-      </SearchBarDiv>
-      <FilterButton>
-        <FilterButtonIcon src={FilterIcon} />
-      </FilterButton>
+    <FilterBarDiv isOpen={isOpen}>
+      <FilterBarHeader>
+        <SearchBarDiv>
+          <SearchBar placeholder="Search..." />
+          <SearchButton>
+            <SearchButtonIcon src={SearchIcon} />
+          </SearchButton>
+        </SearchBarDiv>
+        <FilterButton onClick={() => setIsOpen(!isOpen)}>
+          <FilterButtonIcon src={FilterIcon} />
+        </FilterButton>
+      </FilterBarHeader>
+      <FilterOptions isOpen={isOpen}>
+        <FiltersGroup label="Posts" filters={Filters['Posts']} />
+        <FiltersGroup label="Groups" filters={Filters['Groups']} />
+        <FiltersGroup label="Others" filters={Filters['Others']} />
+      </FilterOptions>
     </FilterBarDiv>
   )
 }

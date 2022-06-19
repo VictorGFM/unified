@@ -4,6 +4,7 @@ import { AppDiv, ContentDiv } from './styles'
 import Header from '../components/Header'
 import SocialMediaBar from '../components/SocialMediaBar'
 import HomePage from '../pages/HomePage'
+import MessagesPage from '../pages/MessagesPage'
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <ContentDiv>
           <Routes>
             <Route path="/" element={<HomePage />} />
+            <Route path="/messages" element={<MessagesPage />} />
             <Route path="*" element={<Navigate to="/" />} />
           </Routes>
         </ContentDiv>

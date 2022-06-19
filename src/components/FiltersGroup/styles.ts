@@ -22,6 +22,7 @@ export const HorizontalLine = styled.hr`
 
 export const FilterOptionsDiv = styled.div`
   height: 100%;
+  padding-left: 5px;
 
   overflow: scroll;
 `

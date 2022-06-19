@@ -1,9 +1,5 @@
 import {
   FilterBarDiv,
-  SearchBarDiv,
-  SearchBar,
-  SearchButton,
-  SearchButtonIcon,
   FilterButton,
   FilterButtonIcon,
   FilterOptions,
@@ -14,6 +10,7 @@ import { useState } from 'react'
 import FiltersGroup from '../FiltersGroup'
 import { Filters } from './data'
 import { Filter } from '../FiltersGroup/FiltersGroup'
+import SearchBar from '../SearchBar'
 
 export interface FiltersGroupsData {
   Posts: Filter[]
@@ -27,12 +24,7 @@ const FilterBar = () => {
   return (
     <FilterBarDiv isOpen={isOpen}>
       <FilterBarHeader>
-        <SearchBarDiv>
-          <SearchBar placeholder="Search..." />
-          <SearchButton>
-            <SearchButtonIcon src={SearchIcon} />
-          </SearchButton>
-        </SearchBarDiv>
+        <SearchBar placeholder="Search..." />
         <FilterButton onClick={() => setIsOpen(!isOpen)}>
           <FilterButtonIcon src={FilterIcon} />
         </FilterButton>

@@ -21,6 +21,9 @@ export const COLORS = {
   RED: {
     ONE: '#F83F3F',
   },
+  GREEN: {
+    ONE: '#23F401',
+  },
 }
 
 export const PRIMARY_COLOR = COLORS.PURPLE.ONE

@@ -18,11 +18,13 @@ const HeaderButton = ({
   const isUserProfile = icon === ProfilePhotoIcon
   const showNotificationsNumber = !isUserProfile && notificationsNumber > 0
   return (
-    <HeaderButtonDiv onClick={handleClick}>
-      <Button isUserProfile={isUserProfile} isSelected={isSelected}>
+    <HeaderButtonDiv>
+      <Button isUserProfile={isUserProfile} isSelected={isSelected} onClick={handleClick}>
         <ButtonIcon src={icon} isUserProfile={isUserProfile} isSelected={isSelected} />
       </Button>
-      {showNotificationsNumber && <NotificationsNumber number={notificationsNumber} />}
+      {showNotificationsNumber && (
+        <NotificationsNumber number={notificationsNumber} onClick={handleClick} />
+      )}
     </HeaderButtonDiv>
   )
 }

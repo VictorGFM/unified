@@ -16,5 +16,6 @@ export const NotificationsNumberDiv = styled.div`
   font-weight: bold;
 
   background-color: ${COLORS.RED.ONE};
-  border-radius: 50%;
+  border-radius: 100%;
+  cursor: pointer;
 `

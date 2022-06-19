@@ -11,6 +11,19 @@ import {
   UnreadMessagesNumber,
 } from './styles'
 
+interface Notifications {
+  total: number
+  instagram?: number
+  twitter?: number
+  facebook?: number
+}
+
+export interface ContactNotifications {
+  total: number
+  messages?: Notifications
+  stories?: Notifications
+}
+
 export interface ContactInfo {
   id: string
   contactName: string
@@ -18,7 +31,7 @@ export interface ContactInfo {
   status?: string
   primaryInfo?: string
   secondaryInfo?: string
-  numberNotifications?: number
+  contactNotifications?: ContactNotifications
 }
 
 interface ContactCardProps {
@@ -29,9 +42,9 @@ interface ContactCardProps {
 }
 
 const ContactCard = ({ contact, isSelected, onClick, className }: ContactCardProps) => {
-  const { contactName, contactPhoto, status, primaryInfo, secondaryInfo, numberNotifications } =
+  const { contactName, contactPhoto, status, primaryInfo, secondaryInfo, contactNotifications } =
     contact
-  const hasUnreadNotifications = Boolean(numberNotifications)
+  const hasUnreadNotifications = Boolean(contactNotifications)
   return (
     <ContactCardDiv
       isSelected={isSelected}
@@ -47,7 +60,9 @@ const ContactCard = ({ contact, isSelected, onClick, className }: ContactCardPro
         <ContactName>{contactName}</ContactName>
         <PrimaryInfo>{primaryInfo}</PrimaryInfo>
         <SecondaryInfo>{secondaryInfo}</SecondaryInfo>
-        {hasUnreadNotifications && <UnreadMessagesNumber number={numberNotifications} />}
+        {hasUnreadNotifications && (
+          <UnreadMessagesNumber number={contactNotifications.messages.total} />
+        )}
       </ContactInfoDiv>
     </ContactCardDiv>
   )

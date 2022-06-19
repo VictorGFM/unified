@@ -1,15 +1,14 @@
 import ContactCard from '../ContactCard'
 import { ContactCardDiv, ContactMessagesDiv, MessagesSearchBar, MessagesTitle } from './styles'
 import { contacts } from '../../pages/MessagesPage/data'
-import { useState } from 'react'
+import { ContactInfo } from '../ContactCard/ContactCard'
 
-const ContactMessages = () => {
-  const [selectedContact, setSelectedContact] = useState((contacts && contacts[0].id) || '')
+interface ContactMessagesProps {
+  selectedContactID: string
+  handleSelectContact: (contact: ContactInfo) => void
+}
 
-  const handleSelectContact = (contactID: string) => {
-    setSelectedContact(contactID)
-  }
-
+const ContactMessages = ({ selectedContactID, handleSelectContact }: ContactMessagesProps) => {
   return (
     <ContactMessagesDiv>
       <MessagesTitle>Messages</MessagesTitle>
@@ -20,8 +19,8 @@ const ContactMessages = () => {
             <ContactCard
               key={contact.id}
               contact={contact}
-              onClick={() => handleSelectContact(contact.id)}
-              isSelected={selectedContact === contact.id}
+              onClick={() => handleSelectContact(contact)}
+              isSelected={selectedContactID === contact.id}
             />
           ))}
       </ContactCardDiv>

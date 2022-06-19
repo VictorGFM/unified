@@ -19,7 +19,9 @@ interface ChatProps {
 }
 
 const Chat = ({ contact }: ChatProps) => {
-  const [selectedSocial, setSelectedSocial] = useState('Instragram')
+  const [selectedSocial, setSelectedSocial] = useState('Instagram')
+
+  const unreadMessages = contact.contactNotifications?.messages
 
   const handleClickButton = (socialType: SocialType) => {
     setSelectedSocial(socialType)
@@ -34,17 +36,19 @@ const Chat = ({ contact }: ChatProps) => {
             icon={InstagramIcon}
             isSelected={selectedSocial === 'Instagram'}
             handleClick={() => handleClickButton('Instagram')}
-            numberNotifications={contact.numberNotifications}
+            unreadMessages={unreadMessages?.instagram}
           />
           <ChatSocialMediaButton
             icon={TwitterIcon}
             isSelected={selectedSocial === 'Twitter'}
             handleClick={() => handleClickButton('Twitter')}
+            unreadMessages={unreadMessages?.twitter}
           />
           <ChatSocialMediaButton
             icon={FacebookIcon}
             isSelected={selectedSocial === 'Facebook'}
             handleClick={() => handleClickButton('Facebook')}
+            unreadMessages={unreadMessages?.facebook}
           />
         </SocialMediaButtonsDiv>
         <InfoButton>

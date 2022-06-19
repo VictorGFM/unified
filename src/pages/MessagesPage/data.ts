@@ -17,7 +17,15 @@ export const contacts: ContactInfo[] = [
     status: 'online',
     primaryInfo: 'Au Au Au...',
     secondaryInfo: 'Dec 5, 2021',
-    numberNotifications: 11,
+    contactNotifications: {
+      total: 11,
+      messages: {
+        total: 11,
+        instagram: 0,
+        twitter: 10,
+        facebook: 1,
+      },
+    },
   },
   {
     id: '3',
@@ -25,7 +33,20 @@ export const contacts: ContactInfo[] = [
     contactPhoto: ContactPhotoIcon,
     primaryInfo: 'Some message...',
     secondaryInfo: 'Sep 3, 2021',
-    numberNotifications: 31,
+    contactNotifications: {
+      total: 41,
+      messages: {
+        total: 31,
+        instagram: 17,
+        twitter: 11,
+        facebook: 3,
+      },
+      stories: {
+        total: 5,
+        instagram: 3,
+        facebook: 2,
+      },
+    },
   },
   {
     id: '4',

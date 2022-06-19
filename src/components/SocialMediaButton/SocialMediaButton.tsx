@@ -4,7 +4,7 @@ interface SocialMediaButtonProps {
   icon: string
   isSelected?: boolean
   handleClick?: () => void
-  numberNotifications?: number
+  unreadMessages?: number
   className?: string
 }
 
@@ -12,16 +12,16 @@ const SocialMediaButton = ({
   icon,
   isSelected,
   handleClick,
-  numberNotifications,
+  unreadMessages,
   className,
 }: SocialMediaButtonProps) => {
-  const hasUnreadNotifications = Boolean(numberNotifications) && !isSelected
+  const hasUnreadNotifications = Boolean(unreadMessages) && !isSelected
 
   return (
     <SocialMediaButtonDiv isSelected={isSelected} onClick={handleClick} className={className}>
       <Icon src={icon} />
       {isSelected && <SelectedBar />}
-      {hasUnreadNotifications && <SocialUnreadMessagesNumber number={numberNotifications} />}
+      {hasUnreadNotifications && <SocialUnreadMessagesNumber number={unreadMessages} />}
     </SocialMediaButtonDiv>
   )
 }

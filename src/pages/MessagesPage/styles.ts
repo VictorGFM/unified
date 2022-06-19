@@ -3,11 +3,12 @@ import { COLORS } from '../../styles/global'
 
 export const MessagesPageDiv = styled.div`
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: center;
 `
 
 export const MessagesDiv = styled.div`
+  display: flex;
+
   width: 1094px;
   height: 583px;
   margin: 27px 0px 40px 0px;

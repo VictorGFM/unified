@@ -23,11 +23,12 @@ export interface ContactInfo {
 
 interface ContactCardProps {
   contact: ContactInfo
-  onClick: () => void
+  onClick?: () => void
   isSelected?: boolean
+  className?: string
 }
 
-const ContactCard = ({ contact, isSelected, onClick }: ContactCardProps) => {
+const ContactCard = ({ contact, isSelected, onClick, className }: ContactCardProps) => {
   const { contactName, contactPhoto, status, primaryInfo, secondaryInfo, numberNotifications } =
     contact
   const hasUnreadNotifications = Boolean(numberNotifications)
@@ -36,6 +37,7 @@ const ContactCard = ({ contact, isSelected, onClick }: ContactCardProps) => {
       isSelected={isSelected}
       hasUnreadNotifications={hasUnreadNotifications}
       onClick={onClick}
+      className={className}
     >
       <ContactPhotoDiv>
         <ContactPhoto src={contactPhoto} />

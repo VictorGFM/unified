@@ -1,5 +1,5 @@
 import { AlfredoPhotoIcon, ContactPhotoIcon } from '../../assets'
-import { ContactInfo } from '../ContactCard/ContactCard'
+import { ContactInfo } from '../../components/ContactCard/ContactCard'
 
 export const contacts: ContactInfo[] = [
   {

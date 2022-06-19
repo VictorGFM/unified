@@ -1,8 +1,6 @@
 import ContactCard from '../ContactCard'
 import { ContactCardDiv, ContactMessagesDiv, MessagesSearchBar, MessagesTitle } from './styles'
-import { AlfredoPhotoIcon } from '../../assets'
-import { ContactInfo } from '../ContactCard/ContactCard'
-import { contacts } from './data'
+import { contacts } from '../../pages/MessagesPage/data'
 import { useState } from 'react'
 
 const ContactMessages = () => {
@@ -15,7 +13,7 @@ const ContactMessages = () => {
   return (
     <ContactMessagesDiv>
       <MessagesTitle>Messages</MessagesTitle>
-      <MessagesSearchBar placeholder="Find message..." />
+      <MessagesSearchBar placeholder="Find a message..." />
       <ContactCardDiv>
         {contacts &&
           contacts.map(contact => (

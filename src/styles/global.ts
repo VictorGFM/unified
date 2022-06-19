@@ -17,6 +17,7 @@ export const COLORS = {
     FIVE: '#EEEEEE',
     SIX: '#F2F2F2',
     SEVEN: '#4D4C4C',
+    EIGHT: '#DEDEDE',
   },
   RED: {
     ONE: '#F83F3F',

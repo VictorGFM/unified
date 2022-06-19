@@ -15,7 +15,7 @@ import SocialMediaButton from '../SocialMediaButton'
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 
-type SocialType = 'Unified' | 'Instagram' | 'Twitter' | 'Facebook'
+export type SocialType = 'Unified' | 'Instagram' | 'Twitter' | 'Facebook'
 
 const SocialMediaBar = () => {
   const [selectedSocial, setSelectedSocial] = useState('Unified')

@@ -39,19 +39,19 @@ const Chat = ({ contact }: ChatProps) => {
           <ChatSocialMediaButton
             icon={InstagramIcon}
             isSelected={selectedSocial === 'Instagram'}
-            handleClick={() => handleClickButton('Instagram')}
+            onClick={() => handleClickButton('Instagram')}
             unreadMessages={unreadMessages?.instagram}
           />
           <ChatSocialMediaButton
             icon={TwitterIcon}
             isSelected={selectedSocial === 'Twitter'}
-            handleClick={() => handleClickButton('Twitter')}
+            onClick={() => handleClickButton('Twitter')}
             unreadMessages={unreadMessages?.twitter}
           />
           <ChatSocialMediaButton
             icon={FacebookIcon}
             isSelected={selectedSocial === 'Facebook'}
-            handleClick={() => handleClickButton('Facebook')}
+            onClick={() => handleClickButton('Facebook')}
             unreadMessages={unreadMessages?.facebook}
           />
         </SocialMediaButtonsDiv>
@@ -60,9 +60,9 @@ const Chat = ({ contact }: ChatProps) => {
         </InfoButton>
       </SocialBar>
       <MessagesDiv>
-        <MessageDate>{'05/09/2021'}</MessageDate>
+        <MessageDate>05/09/2021</MessageDate>
         <Message message={messages[0]} />
-        <MessageDate>{'07/09/2021'}</MessageDate>
+        <MessageDate>07/09/2021</MessageDate>
         <Message message={messages[1]} />
         <SendMessageBar icon={SendIcon} placeholder="Send a message..." />
       </MessagesDiv>

@@ -43,22 +43,22 @@ const SocialMediaBar = () => {
             currentLocation !== socialRoutes['Twitter'] &&
             currentLocation !== socialRoutes['Facebook']
           }
-          handleClick={() => handleClickButton('Unified')}
+          onClick={() => handleClickButton('Unified')}
         />
         <SocialMediaButton
           icon={InstagramIcon}
           isSelected={currentLocation === socialRoutes['Instagram']}
-          handleClick={() => handleClickButton('Instagram')}
+          onClick={() => handleClickButton('Instagram')}
         />
         <SocialMediaButton
           icon={TwitterIcon}
           isSelected={currentLocation === socialRoutes['Twitter']}
-          handleClick={() => handleClickButton('Twitter')}
+          onClick={() => handleClickButton('Twitter')}
         />
         <SocialMediaButton
           icon={FacebookIcon}
           isSelected={currentLocation === socialRoutes['Facebook']}
-          handleClick={() => handleClickButton('Facebook')}
+          onClick={() => handleClickButton('Facebook')}
         />
       </SocialMediaButtonsDiv>
       <ToggleSocialMediaBardDiv>

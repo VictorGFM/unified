@@ -12,7 +12,7 @@ export const SocialTagDiv = styled.div`
   width: 32px;
   height: 43px;
 
-  background-color: ${COLORS.PURPLE.TWO};
+  background-color: rgba(167, 53, 237, 0.2);
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
 `

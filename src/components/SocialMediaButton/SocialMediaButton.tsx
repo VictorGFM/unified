@@ -3,7 +3,7 @@ import { SocialMediaButtonDiv, SelectedBar, Icon, SocialUnreadMessagesNumber } f
 interface SocialMediaButtonProps {
   icon: string
   isSelected?: boolean
-  handleClick?: () => void
+  onClick?: () => void
   unreadMessages?: number
   className?: string
 }
@@ -11,14 +11,14 @@ interface SocialMediaButtonProps {
 const SocialMediaButton = ({
   icon,
   isSelected,
-  handleClick,
+  onClick,
   unreadMessages,
   className,
 }: SocialMediaButtonProps) => {
   const hasUnreadNotifications = Boolean(unreadMessages) && !isSelected
 
   return (
-    <SocialMediaButtonDiv isSelected={isSelected} onClick={handleClick} className={className}>
+    <SocialMediaButtonDiv isSelected={isSelected} onClick={onClick} className={className}>
       <Icon src={icon} />
       {isSelected && <SelectedBar />}
       {hasUnreadNotifications && <SocialUnreadMessagesNumber number={unreadMessages} />}

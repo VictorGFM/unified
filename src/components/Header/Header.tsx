@@ -11,6 +11,7 @@ import {
 import HeaderButton from '../HeaderButton/HeaderButton'
 import { useLocation, useNavigate } from 'react-router-dom'
 import { useState } from 'react'
+import Notifications from '../Notifications'
 
 type ButtonType = 'Home' | 'Groups' | 'Contacts' | 'Messages' | 'Notifications'
 
@@ -34,6 +35,10 @@ const Header = () => {
     } else {
       navigate(buttonRoutes[buttonType])
     }
+  }
+
+  const handleCloseNotifications = () => {
+    setIsNotificationsOpen(false)
   }
 
   return (
@@ -71,6 +76,9 @@ const Header = () => {
           />
           <HeaderButton icon={ProfilePhotoIcon} />
         </ButtonsDiv>
+        {isNotificationsOpen && (
+          <Notifications handleCloseNotifications={handleCloseNotifications} />
+        )}
       </HeaderDiv>
     </>
   )

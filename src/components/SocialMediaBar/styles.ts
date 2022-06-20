@@ -6,7 +6,7 @@ export const SocialMediaBarDiv = styled.div`
   grid-row: 1/3;
 `
 export const SocialMediaButtonsDiv = styled.div`
-  flex: 1;
+  width: 100px;
 `
 export const ToggleSocialMediaBardDiv = styled.div`
   display: flex;
@@ -17,6 +17,10 @@ export const ToggleSocialMediaBardDiv = styled.div`
 
   background-color: ${COLORS.WHITE.ONE};
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.48);
+  cursor: pointer;
   z-index: 1;
 `
-export const ToggleSocialMediaBarButton = styled.img``
+
+export const ToggleSocialMediaBarButton = styled.img<{ isOpen: boolean }>`
+  ${({ isOpen }) => !isOpen && `transform: rotate(180deg);`}
+`

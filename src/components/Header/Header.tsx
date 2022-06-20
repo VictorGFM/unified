@@ -44,7 +44,7 @@ const Header = () => {
   return (
     <>
       <HeaderDiv>
-        <Logo src={AppLogo} onClick={() => navigate('/')} />
+        <Logo src={AppLogo} onClick={() => navigate('/app')} />
         <ButtonsDiv>
           <HeaderButton
             icon={HomeIcon}

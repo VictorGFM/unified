@@ -3,7 +3,7 @@ import { COLORS } from '../..//styles/global'
 
 export const AppDiv = styled.div`
   display: grid;
-  grid-template-columns: 117px 1fr;
+  grid-template-columns: auto 1fr;
   grid-template-rows: 70px 1fr;
 
   width: 100%;

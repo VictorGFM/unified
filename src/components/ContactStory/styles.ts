@@ -27,7 +27,7 @@ export const ContactStoryButton = styled.div`
 `
 
 export const ContactPhoto = styled.img`
-  height: 105%;
+  height: 50px;
 `
 
 export const ContactName = styled.span`

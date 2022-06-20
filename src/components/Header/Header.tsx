@@ -1,4 +1,4 @@
-import { HeaderDiv, SpaceDiv, Logo, ButtonsDiv } from './styles'
+import { HeaderDiv, Logo, ButtonsDiv } from './styles'
 import {
   AppLogo,
   HomeIcon,
@@ -44,7 +44,6 @@ const Header = () => {
   return (
     <>
       <HeaderDiv>
-        <SpaceDiv />
         <Logo src={AppLogo} onClick={() => navigate('/')} />
         <ButtonsDiv>
           <HeaderButton

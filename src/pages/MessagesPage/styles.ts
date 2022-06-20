@@ -11,7 +11,7 @@ export const MessagesDiv = styled.div`
 
   width: 1094px;
   height: 583px;
-  margin: 27px 0px 40px 0px;
+  margin: 27px 0px 27px 0px;
 
   background-color: ${COLORS.WHITE.ONE};
   border: solid ${COLORS.GREY.THREE} 1px;

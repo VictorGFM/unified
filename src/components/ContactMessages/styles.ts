@@ -29,7 +29,9 @@ export const MessagesSearchBar = styled(InputBar)`
 
 export const ContactCardDiv = styled.div`
   height: 466px;
+  margin-right: 2px;
   margin-bottom: 7px;
 
   overflow: auto;
+  box-sizing: border-box;
 `

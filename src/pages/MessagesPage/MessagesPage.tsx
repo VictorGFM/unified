@@ -6,7 +6,7 @@ import { useState } from 'react'
 import { ContactInfo } from '../../components/ContactCard/ContactCard'
 
 const MessagesPage = () => {
-  const [selectedContact, setSelectedContact] = useState((contacts && contacts[0]) || undefined)
+  const [selectedContact, setSelectedContact] = useState(contacts && contacts[0])
 
   const handleSelectContact = (contact: ContactInfo) => {
     setSelectedContact(contact)

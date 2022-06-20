@@ -5,6 +5,7 @@ import Header from '../components/Header'
 import SocialMediaBar from '../components/SocialMediaBar'
 import HomePage from '../pages/HomePage'
 import MessagesPage from '../pages/MessagesPage'
+import ContactsPage from '../pages/ContactsPage'
 
 const App = () => {
   return (
@@ -16,7 +17,7 @@ const App = () => {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/messages" element={<MessagesPage />} />
-            <Route path="/contacts" element={null} />
+            <Route path="/contacts" element={<ContactsPage />} />
             <Route path="/groups" element={null} />
             <Route path="/instagram" element={null} />
             <Route path="/twitter" element={null} />

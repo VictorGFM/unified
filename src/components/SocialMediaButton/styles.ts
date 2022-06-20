@@ -34,6 +34,6 @@ export const SelectedBar = styled.div`
 `
 
 export const SocialUnreadMessagesNumber = styled(NotificationsNumber)`
-  right: 3px;
-  bottom: 12px;
+  right: 5px;
+  bottom: 14px;
 `

@@ -15,6 +15,9 @@ export const InputBarInput = styled.input`
   padding-left: 9px;
 
   font-size: 17px;
+  ::placeholder {
+    color: ${COLORS.GREY.NINE};
+  }
 
   border: solid ${COLORS.GREY.ONE} 1px;
   border-radius: 5px;

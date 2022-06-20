@@ -23,10 +23,10 @@ const SocialMediaBar = () => {
   const currentLocation = location.pathname
 
   const socialRoutes = {
-    Unified: '/',
-    Instagram: '/instagram',
-    Twitter: '/twitter',
-    Facebook: '/facebook',
+    Unified: '/app',
+    Instagram: '/social/instagram',
+    Twitter: '/social/twitter',
+    Facebook: '/social/facebook',
   }
 
   const handleClickButton = (socialType: SocialType) => {

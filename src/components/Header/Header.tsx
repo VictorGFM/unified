@@ -23,10 +23,10 @@ const Header = () => {
   const currentPage = location.pathname
 
   const buttonRoutes = {
-    Home: '/',
-    Groups: '/groups',
-    Contacts: '/contacts',
-    Messages: '/messages',
+    Home: '/app',
+    Groups: '/app/groups',
+    Contacts: '/app/contacts',
+    Messages: '/app/messages',
   }
 
   const handleClickButton = (buttonType: ButtonType) => {

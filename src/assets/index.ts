@@ -27,6 +27,9 @@ import GroupImage1 from './images/GroupImage1.png'
 import GroupImage2 from './images/GroupImage2.png'
 import GroupImage3 from './images/GroupImage3.png'
 import GroupImage4 from './images/GroupImage4.png'
+import TwitterAppImage from './images/TwitterAppImage.png'
+import InstagramAppImage from './images/InstagramAppImage.png'
+import FacebookAppImage from './images/FacebookAppImage.png'
 
 export {
   AppLogo,
@@ -57,4 +60,7 @@ export {
   GroupImage2,
   GroupImage3,
   GroupImage4,
+  TwitterAppImage,
+  InstagramAppImage,
+  FacebookAppImage,
 }

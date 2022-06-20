@@ -1,15 +1,19 @@
 import { useState } from 'react'
-import { FacebookIcon, InstagramIcon, TwitterIcon, InfoIcon } from '../../assets'
+import { FacebookIcon, InstagramIcon, TwitterIcon, InfoIcon, SendIcon } from '../../assets'
 import { ContactInfo } from '../ContactCard/ContactCard'
+import Message from '../Message'
 import { SocialType } from '../SocialMediaBar/SocialMediaBar'
 import SocialMediaButton from '../SocialMediaButton'
+import { messages } from './data'
 import {
   ChatContactCard,
   ChatDiv,
   ChatSocialMediaButton,
   InfoButton,
   InfoButtonImage,
+  MessageDate,
   MessagesDiv,
+  SendMessageBar,
   SocialBar,
   SocialMediaButtonsDiv,
 } from './styles'
@@ -55,7 +59,13 @@ const Chat = ({ contact }: ChatProps) => {
           <InfoButtonImage src={InfoIcon} />
         </InfoButton>
       </SocialBar>
-      <MessagesDiv></MessagesDiv>
+      <MessagesDiv>
+        <MessageDate>{'05/09/2021'}</MessageDate>
+        <Message message={messages[0]} />
+        <MessageDate>{'07/09/2021'}</MessageDate>
+        <Message message={messages[1]} />
+        <SendMessageBar icon={SendIcon} placeholder="Send a message..." />
+      </MessagesDiv>
     </ChatDiv>
   )
 }

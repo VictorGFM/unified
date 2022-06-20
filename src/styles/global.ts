@@ -2,6 +2,7 @@ export const COLORS = {
   PURPLE: {
     ONE: '#A735ED',
     TWO: '#EDD8F8',
+    THREE: '#E0C0F8',
   },
   BLACK: {
     ONE: '#000000',

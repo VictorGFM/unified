@@ -10,7 +10,7 @@ import { useState } from 'react'
 import FiltersGroup from '../FiltersGroup'
 import { Filters } from './data'
 import { Filter } from '../FiltersGroup/FiltersGroup'
-import SearchBar from '../SearchBar'
+import InputBar from '../InputBar'
 
 export interface FiltersGroupsData {
   Posts: Filter[]
@@ -24,7 +24,7 @@ const FilterBar = () => {
   return (
     <FilterBarDiv isOpen={isOpen}>
       <FilterBarHeader>
-        <SearchBar placeholder="Search..." />
+        <InputBar icon={SearchIcon} placeholder="Search..." />
         <FilterButton onClick={() => setIsOpen(!isOpen)}>
           <FilterButtonIcon src={FilterIcon} />
         </FilterButton>

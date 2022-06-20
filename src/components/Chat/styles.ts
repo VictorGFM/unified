@@ -10,6 +10,8 @@ import {
   UnreadMessagesNumber,
 } from '../ContactCard/styles'
 import { ContactName } from '../ContactCard/styles'
+import InputBar from '../InputBar'
+import { InputBarInput, InputButton, InputButtonIcon } from '../InputBar/styles'
 import SocialMediaButton from '../SocialMediaButton'
 import { Icon, SelectedBar } from '../SocialMediaButton/styles'
 
@@ -97,8 +99,46 @@ export const InfoButton = styled.div`
 export const InfoButtonImage = styled.img``
 
 export const MessagesDiv = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
   height: 100%;
   border-bottom-right-radius: 7px;
 
   background-color: ${COLORS.GREY.EIGHT};
+`
+
+export const MessageDate = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 138px;
+  margin: 10px auto 0px auto;
+
+  font-size: 15px;
+  line-height: 18px;
+  color: ${COLORS.GREY.SEVEN};
+`
+
+export const SendMessageBar = styled(InputBar)`
+  width: 689px;
+  height: 50px;
+  margin: 22px auto 14px auto;
+  box-sizing: border-box;
+
+  ${InputBarInput} {
+    padding-left: 18px;
+
+    border-radius: 10px;
+  }
+  ${InputButton} {
+    height: 50px;
+    margin-right: 17px;
+    ${InputButtonIcon} {
+      width: 25px;
+      height: 25px;
+    }
+  }
 `

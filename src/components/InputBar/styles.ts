@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import { COLORS } from '../../styles/global'
 
-export const SearchBarDiv = styled.div`
+export const InputBarDiv = styled.div`
   position: relative;
 
   width: 530px;
@@ -9,7 +9,7 @@ export const SearchBarDiv = styled.div`
   margin-left: 14px;
 `
 
-export const SearchBarInput = styled.input`
+export const InputBarInput = styled.input`
   width: 100%;
   height: 100%;
   padding-left: 9px;
@@ -21,7 +21,7 @@ export const SearchBarInput = styled.input`
   box-sizing: border-box;
 `
 
-export const SearchButton = styled.div`
+export const InputButton = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
@@ -35,7 +35,7 @@ export const SearchButton = styled.div`
   cursor: pointer;
 `
 
-export const SearchButtonIcon = styled.img`
+export const InputButtonIcon = styled.img`
   width: 20px;
   height: 20px;
 `

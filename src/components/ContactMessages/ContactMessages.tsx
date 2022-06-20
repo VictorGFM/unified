@@ -2,6 +2,7 @@ import ContactCard from '../ContactCard'
 import { ContactCardDiv, ContactMessagesDiv, MessagesSearchBar, MessagesTitle } from './styles'
 import { contacts } from '../../pages/MessagesPage/data'
 import { ContactInfo } from '../ContactCard/ContactCard'
+import { SearchIcon } from '../../assets'
 
 interface ContactMessagesProps {
   selectedContactID: string
@@ -12,7 +13,7 @@ const ContactMessages = ({ selectedContactID, handleSelectContact }: ContactMess
   return (
     <ContactMessagesDiv>
       <MessagesTitle>Messages</MessagesTitle>
-      <MessagesSearchBar placeholder="Find a message..." />
+      <MessagesSearchBar icon={SearchIcon} placeholder="Find a message..." />
       <ContactCardDiv>
         {contacts &&
           contacts.map(contact => (

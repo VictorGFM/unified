@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import { COLORS } from '../../styles/global'
-import SearchBar from '../SearchBar'
+import InputBar from '../InputBar'
 
 export const ContactMessagesDiv = styled.div`
   display: flex;
@@ -20,7 +20,7 @@ export const MessagesTitle = styled.span`
   text-align: center;
 `
 
-export const MessagesSearchBar = styled(SearchBar)`
+export const MessagesSearchBar = styled(InputBar)`
   width: 326px;
   height: 34px;
   margin-left: 7px;
@@ -29,5 +29,7 @@ export const MessagesSearchBar = styled(SearchBar)`
 
 export const ContactCardDiv = styled.div`
   height: 466px;
+  margin-bottom: 7px;
+
   overflow: auto;
 `

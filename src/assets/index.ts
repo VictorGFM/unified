@@ -20,6 +20,7 @@ import CommentIcon from './icons/CommentIcon.svg'
 import ShareIcon from './icons/ShareIcon.svg'
 import CheckIcon from './icons/CheckIcon.svg'
 import InfoIcon from './icons/InfoIcon.svg'
+import SendIcon from './icons/SendIcon.svg'
 
 import AndromedaImage from './images/AndromedaImage.png'
 
@@ -47,4 +48,5 @@ export {
   AndromedaImage,
   CheckIcon,
   InfoIcon,
+  SendIcon,
 }

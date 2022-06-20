@@ -12,24 +12,24 @@ import {
   ToggleSocialBarIcon,
 } from '../../assets'
 import SocialMediaButton from '../SocialMediaButton'
-import { useState } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { useLocation, useNavigate } from 'react-router-dom'
 
 export type SocialType = 'Unified' | 'Instagram' | 'Twitter' | 'Facebook'
 
 const SocialMediaBar = () => {
-  const [selectedSocial, setSelectedSocial] = useState('Unified')
   const navigate = useNavigate()
+  const location = useLocation()
+
+  const currentLocation = location.pathname
 
   const socialRoutes = {
     Unified: '/',
-    Instagram: '/instragram',
+    Instagram: '/instagram',
     Twitter: '/twitter',
     Facebook: '/facebook',
   }
 
   const handleClickButton = (socialType: SocialType) => {
-    setSelectedSocial(socialType)
     navigate(socialRoutes[socialType])
   }
 
@@ -38,22 +38,26 @@ const SocialMediaBar = () => {
       <SocialMediaButtonsDiv>
         <SocialMediaButton
           icon={AppIcon}
-          isSelected={selectedSocial === 'Unified'}
+          isSelected={
+            currentLocation !== socialRoutes['Instagram'] &&
+            currentLocation !== socialRoutes['Twitter'] &&
+            currentLocation !== socialRoutes['Facebook']
+          }
           handleClick={() => handleClickButton('Unified')}
         />
         <SocialMediaButton
           icon={InstagramIcon}
-          isSelected={selectedSocial === 'Instagram'}
+          isSelected={currentLocation === socialRoutes['Instagram']}
           handleClick={() => handleClickButton('Instagram')}
         />
         <SocialMediaButton
           icon={TwitterIcon}
-          isSelected={selectedSocial === 'Twitter'}
+          isSelected={currentLocation === socialRoutes['Twitter']}
           handleClick={() => handleClickButton('Twitter')}
         />
         <SocialMediaButton
           icon={FacebookIcon}
-          isSelected={selectedSocial === 'Facebook'}
+          isSelected={currentLocation === socialRoutes['Facebook']}
           handleClick={() => handleClickButton('Facebook')}
         />
       </SocialMediaButtonsDiv>

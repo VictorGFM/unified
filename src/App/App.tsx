@@ -16,6 +16,11 @@ const App = () => {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/messages" element={<MessagesPage />} />
+            <Route path="/contacts" element={null} />
+            <Route path="/groups" element={null} />
+            <Route path="/instagram" element={null} />
+            <Route path="/twitter" element={null} />
+            <Route path="/facebook" element={null} />
             <Route path="*" element={<Navigate to="/" />} />
           </Routes>
         </ContentDiv>

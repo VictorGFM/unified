@@ -23,6 +23,10 @@ import InfoIcon from './icons/InfoIcon.svg'
 import SendIcon from './icons/SendIcon.svg'
 
 import AndromedaImage from './images/AndromedaImage.png'
+import GroupImage1 from './images/GroupImage1.png'
+import GroupImage2 from './images/GroupImage2.png'
+import GroupImage3 from './images/GroupImage3.png'
+import GroupImage4 from './images/GroupImage4.png'
 
 export {
   AppLogo,
@@ -49,4 +53,8 @@ export {
   CheckIcon,
   InfoIcon,
   SendIcon,
+  GroupImage1,
+  GroupImage2,
+  GroupImage3,
+  GroupImage4,
 }

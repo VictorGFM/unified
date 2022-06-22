@@ -1,0 +1,572 @@
+// Vitest Snapshot v1
+
+exports[`<FilterBar/> > should show match snapshot 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-bczRLJ gvQIyN"
+      >
+        <div
+          class="sc-gsnTZi izrTjg"
+        >
+          <div
+            class="sc-crXcEl hPWHVC"
+          >
+            <input
+              class="sc-evZas gYIiKi"
+              placeholder="Search..."
+            />
+            <div
+              class="sc-breuTD hJnmYB"
+            >
+              <img
+                class="sc-ksZaOG crynEB"
+                src="/src/assets/icons/SearchIcon.svg"
+              />
+            </div>
+          </div>
+          <div
+            class="sc-dkzDqf kFWBN"
+          >
+            <img
+              class="sc-hKMtZM iTFQlP"
+              src="/src/assets/icons/FilterIcon.svg"
+            />
+          </div>
+        </div>
+        <div
+          class="sc-eCYdqJ dryNwB"
+        >
+          <div
+            class="sc-papXJ cklNIB"
+          >
+            <span
+              class="sc-jqUVSM denPsi"
+            >
+              Posts
+            </span>
+            <hr
+              class="sc-kDDrLX ifrIVl"
+            />
+            <div
+              class="sc-iqcoie hkcSAG"
+            >
+              <div
+                class="sc-jSMfEi dTXaiz"
+              >
+                <div
+                  class="sc-gKXOVf knmpTR"
+                >
+                  <img
+                    class="sc-iBkjds"
+                    src="/src/assets/icons/CheckIcon.svg"
+                  />
+                </div>
+                <span
+                  class="sc-ftvSup khYnqs"
+                >
+                  Instagram Posts
+                </span>
+              </div>
+              <div
+                class="sc-jSMfEi dTXaiz"
+              >
+                <div
+                  class="sc-gKXOVf knmpTR"
+                >
+                  <img
+                    class="sc-iBkjds"
+                    src="/src/assets/icons/CheckIcon.svg"
+                  />
+                </div>
+                <span
+                  class="sc-ftvSup khYnqs"
+                >
+                  Twitter Posts
+                </span>
+              </div>
+              <div
+                class="sc-jSMfEi dTXaiz"
+              >
+                <div
+                  class="sc-gKXOVf knmpTR"
+                >
+                  <img
+                    class="sc-iBkjds"
+                    src="/src/assets/icons/CheckIcon.svg"
+                  />
+                </div>
+                <span
+                  class="sc-ftvSup khYnqs"
+                >
+                  Facebook Posts
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-papXJ cklNIB"
+          >
+            <span
+              class="sc-jqUVSM denPsi"
+            >
+              Groups
+            </span>
+            <hr
+              class="sc-kDDrLX ifrIVl"
+            />
+            <div
+              class="sc-iqcoie hkcSAG"
+            >
+              <div
+                class="sc-jSMfEi dTXaiz"
+              >
+                <div
+                  class="sc-gKXOVf knmpTR"
+                >
+                  <img
+                    class="sc-iBkjds"
+                    src="/src/assets/icons/CheckIcon.svg"
+                  />
+                </div>
+                <span
+                  class="sc-ftvSup khYnqs"
+                >
+                  Grupo dos Amigos
+                </span>
+              </div>
+              <div
+                class="sc-jSMfEi dTXaiz"
+              >
+                <div
+                  class="sc-gKXOVf knmpTR"
+                >
+                  <img
+                    class="sc-iBkjds"
+                    src="/src/assets/icons/CheckIcon.svg"
+                  />
+                </div>
+                <span
+                  class="sc-ftvSup khYnqs"
+                >
+                  Grupo do Trabalho
+                </span>
+              </div>
+              <div
+                class="sc-jSMfEi dTXaiz"
+              >
+                <div
+                  class="sc-gKXOVf knmpTR"
+                >
+                  <img
+                    class="sc-iBkjds"
+                    src="/src/assets/icons/CheckIcon.svg"
+                  />
+                </div>
+                <span
+                  class="sc-ftvSup khYnqs"
+                >
+                  Grupo da Família
+                </span>
+              </div>
+              <div
+                class="sc-jSMfEi dTXaiz"
+              >
+                <div
+                  class="sc-gKXOVf knmpTR"
+                >
+                  <img
+                    class="sc-iBkjds"
+                    src="/src/assets/icons/CheckIcon.svg"
+                  />
+                </div>
+                <span
+                  class="sc-ftvSup khYnqs"
+                >
+                  Grupo dos Canários
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-papXJ cklNIB"
+          >
+            <span
+              class="sc-jqUVSM denPsi"
+            >
+              Others
+            </span>
+            <hr
+              class="sc-kDDrLX ifrIVl"
+            />
+            <div
+              class="sc-iqcoie hkcSAG"
+            >
+              <div
+                class="sc-jSMfEi dTXaiz"
+              >
+                <div
+                  class="sc-gKXOVf knmpTR"
+                >
+                  <img
+                    class="sc-iBkjds"
+                    src="/src/assets/icons/CheckIcon.svg"
+                  />
+                </div>
+                <span
+                  class="sc-ftvSup khYnqs"
+                >
+                  Other Filter
+                </span>
+              </div>
+              <div
+                class="sc-jSMfEi dTXaiz"
+              >
+                <div
+                  class="sc-gKXOVf knmpTR"
+                >
+                  <img
+                    class="sc-iBkjds"
+                    src="/src/assets/icons/CheckIcon.svg"
+                  />
+                </div>
+                <span
+                  class="sc-ftvSup khYnqs"
+                >
+                  Other Filter
+                </span>
+              </div>
+              <div
+                class="sc-jSMfEi dTXaiz"
+              >
+                <div
+                  class="sc-gKXOVf knmpTR"
+                >
+                  <img
+                    class="sc-iBkjds"
+                    src="/src/assets/icons/CheckIcon.svg"
+                  />
+                </div>
+                <span
+                  class="sc-ftvSup khYnqs"
+                >
+                  Other Filter
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-bczRLJ gvQIyN"
+    >
+      <div
+        class="sc-gsnTZi izrTjg"
+      >
+        <div
+          class="sc-crXcEl hPWHVC"
+        >
+          <input
+            class="sc-evZas gYIiKi"
+            placeholder="Search..."
+          />
+          <div
+            class="sc-breuTD hJnmYB"
+          >
+            <img
+              class="sc-ksZaOG crynEB"
+              src="/src/assets/icons/SearchIcon.svg"
+            />
+          </div>
+        </div>
+        <div
+          class="sc-dkzDqf kFWBN"
+        >
+          <img
+            class="sc-hKMtZM iTFQlP"
+            src="/src/assets/icons/FilterIcon.svg"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-eCYdqJ dryNwB"
+      >
+        <div
+          class="sc-papXJ cklNIB"
+        >
+          <span
+            class="sc-jqUVSM denPsi"
+          >
+            Posts
+          </span>
+          <hr
+            class="sc-kDDrLX ifrIVl"
+          />
+          <div
+            class="sc-iqcoie hkcSAG"
+          >
+            <div
+              class="sc-jSMfEi dTXaiz"
+            >
+              <div
+                class="sc-gKXOVf knmpTR"
+              >
+                <img
+                  class="sc-iBkjds"
+                  src="/src/assets/icons/CheckIcon.svg"
+                />
+              </div>
+              <span
+                class="sc-ftvSup khYnqs"
+              >
+                Instagram Posts
+              </span>
+            </div>
+            <div
+              class="sc-jSMfEi dTXaiz"
+            >
+              <div
+                class="sc-gKXOVf knmpTR"
+              >
+                <img
+                  class="sc-iBkjds"
+                  src="/src/assets/icons/CheckIcon.svg"
+                />
+              </div>
+              <span
+                class="sc-ftvSup khYnqs"
+              >
+                Twitter Posts
+              </span>
+            </div>
+            <div
+              class="sc-jSMfEi dTXaiz"
+            >
+              <div
+                class="sc-gKXOVf knmpTR"
+              >
+                <img
+                  class="sc-iBkjds"
+                  src="/src/assets/icons/CheckIcon.svg"
+                />
+              </div>
+              <span
+                class="sc-ftvSup khYnqs"
+              >
+                Facebook Posts
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-papXJ cklNIB"
+        >
+          <span
+            class="sc-jqUVSM denPsi"
+          >
+            Groups
+          </span>
+          <hr
+            class="sc-kDDrLX ifrIVl"
+          />
+          <div
+            class="sc-iqcoie hkcSAG"
+          >
+            <div
+              class="sc-jSMfEi dTXaiz"
+            >
+              <div
+                class="sc-gKXOVf knmpTR"
+              >
+                <img
+                  class="sc-iBkjds"
+                  src="/src/assets/icons/CheckIcon.svg"
+                />
+              </div>
+              <span
+                class="sc-ftvSup khYnqs"
+              >
+                Grupo dos Amigos
+              </span>
+            </div>
+            <div
+              class="sc-jSMfEi dTXaiz"
+            >
+              <div
+                class="sc-gKXOVf knmpTR"
+              >
+                <img
+                  class="sc-iBkjds"
+                  src="/src/assets/icons/CheckIcon.svg"
+                />
+              </div>
+              <span
+                class="sc-ftvSup khYnqs"
+              >
+                Grupo do Trabalho
+              </span>
+            </div>
+            <div
+              class="sc-jSMfEi dTXaiz"
+            >
+              <div
+                class="sc-gKXOVf knmpTR"
+              >
+                <img
+                  class="sc-iBkjds"
+                  src="/src/assets/icons/CheckIcon.svg"
+                />
+              </div>
+              <span
+                class="sc-ftvSup khYnqs"
+              >
+                Grupo da Família
+              </span>
+            </div>
+            <div
+              class="sc-jSMfEi dTXaiz"
+            >
+              <div
+                class="sc-gKXOVf knmpTR"
+              >
+                <img
+                  class="sc-iBkjds"
+                  src="/src/assets/icons/CheckIcon.svg"
+                />
+              </div>
+              <span
+                class="sc-ftvSup khYnqs"
+              >
+                Grupo dos Canários
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-papXJ cklNIB"
+        >
+          <span
+            class="sc-jqUVSM denPsi"
+          >
+            Others
+          </span>
+          <hr
+            class="sc-kDDrLX ifrIVl"
+          />
+          <div
+            class="sc-iqcoie hkcSAG"
+          >
+            <div
+              class="sc-jSMfEi dTXaiz"
+            >
+              <div
+                class="sc-gKXOVf knmpTR"
+              >
+                <img
+                  class="sc-iBkjds"
+                  src="/src/assets/icons/CheckIcon.svg"
+                />
+              </div>
+              <span
+                class="sc-ftvSup khYnqs"
+              >
+                Other Filter
+              </span>
+            </div>
+            <div
+              class="sc-jSMfEi dTXaiz"
+            >
+              <div
+                class="sc-gKXOVf knmpTR"
+              >
+                <img
+                  class="sc-iBkjds"
+                  src="/src/assets/icons/CheckIcon.svg"
+                />
+              </div>
+              <span
+                class="sc-ftvSup khYnqs"
+              >
+                Other Filter
+              </span>
+            </div>
+            <div
+              class="sc-jSMfEi dTXaiz"
+            >
+              <div
+                class="sc-gKXOVf knmpTR"
+              >
+                <img
+                  class="sc-iBkjds"
+                  src="/src/assets/icons/CheckIcon.svg"
+                />
+              </div>
+              <span
+                class="sc-ftvSup khYnqs"
+              >
+                Other Filter
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

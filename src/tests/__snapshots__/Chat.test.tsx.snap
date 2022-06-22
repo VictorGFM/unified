@@ -1,0 +1,332 @@
+// Vitest Snapshot v1
+
+exports[`<Chat/> > should show match snapshot 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-fEOsli bnYOuY"
+      >
+        <div
+          class="sc-bjUoiL kTOCOT"
+        >
+          <div
+            class="sc-dkzDqf iwBHmD sc-idiyUo hiHuRU"
+          >
+            <div
+              class="sc-hKMtZM gUJqgj"
+            >
+              <img
+                class="sc-eCYdqJ duHIXD"
+                src="/src/assets/icons/AlfredoPhotoIcon.svg"
+              />
+              <div
+                class="sc-jSMfEi Irfst"
+              />
+            </div>
+            <div
+              class="sc-gKXOVf fZYMRR"
+            >
+              <div
+                class="sc-iBkjds fpwhgl"
+              />
+              <span
+                class="sc-ftvSup keHLSh"
+              >
+                Au Au Au...
+              </span>
+              <span
+                class="sc-papXJ fEZgDB"
+              >
+                Dec 5, 2021
+              </span>
+              <div
+                class="sc-gsnTZi efXYKU sc-jqUVSM bWhrGW"
+              >
+                11
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-dIouRR eOCFIi"
+          >
+            <div
+              class="sc-breuTD ipeUcy sc-hHLeRK iWEOrF"
+            >
+              <img
+                class="sc-ksZaOG cFmwJh"
+                src="/src/assets/icons/InstagramIcon.svg"
+              />
+              <div
+                class="sc-hAZoDl fiGYHm"
+              />
+            </div>
+            <div
+              class="sc-breuTD kqfbDV sc-hHLeRK iWEOrF"
+            >
+              <img
+                class="sc-ksZaOG cFmwJh"
+                src="/src/assets/icons/TwitterIcon.svg"
+              />
+              <div
+                class="sc-gsnTZi efXYKU sc-fnykZs cIhCmT"
+              >
+                10
+              </div>
+            </div>
+            <div
+              class="sc-breuTD kqfbDV sc-hHLeRK iWEOrF"
+            >
+              <img
+                class="sc-ksZaOG cFmwJh"
+                src="/src/assets/icons/FacebookIcon.svg"
+              />
+              <div
+                class="sc-gsnTZi efXYKU sc-fnykZs cIhCmT"
+              >
+                1
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-dmRaPn bzpGvT"
+          >
+            <img
+              class="sc-kgflAQ"
+              src="/src/assets/icons/InfoIcon.svg"
+            />
+          </div>
+        </div>
+        <div
+          class="sc-fLlhyt hvLRO"
+        >
+          <div
+            class="sc-bBrHrO hsSQuB"
+          >
+            05/09/2021
+          </div>
+          <div
+            class="sc-bczRLJ eDWSOr"
+          >
+            Some user message...
+          </div>
+          <div
+            class="sc-bBrHrO hsSQuB"
+          >
+            07/09/2021
+          </div>
+          <div
+            class="sc-bczRLJ cnuXqy"
+          >
+            Some contact message...
+          </div>
+          <div
+            class="sc-kDDrLX kfOvYE sc-ivTmOn gdQqCi"
+          >
+            <input
+              class="sc-iqcoie cnrCVV"
+              placeholder="Send a message..."
+            />
+            <div
+              class="sc-crXcEl hVwXjS"
+            >
+              <img
+                class="sc-evZas ciNblN"
+                src="/src/assets/icons/SendIcon.svg"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-fEOsli bnYOuY"
+    >
+      <div
+        class="sc-bjUoiL kTOCOT"
+      >
+        <div
+          class="sc-dkzDqf iwBHmD sc-idiyUo hiHuRU"
+        >
+          <div
+            class="sc-hKMtZM gUJqgj"
+          >
+            <img
+              class="sc-eCYdqJ duHIXD"
+              src="/src/assets/icons/AlfredoPhotoIcon.svg"
+            />
+            <div
+              class="sc-jSMfEi Irfst"
+            />
+          </div>
+          <div
+            class="sc-gKXOVf fZYMRR"
+          >
+            <div
+              class="sc-iBkjds fpwhgl"
+            />
+            <span
+              class="sc-ftvSup keHLSh"
+            >
+              Au Au Au...
+            </span>
+            <span
+              class="sc-papXJ fEZgDB"
+            >
+              Dec 5, 2021
+            </span>
+            <div
+              class="sc-gsnTZi efXYKU sc-jqUVSM bWhrGW"
+            >
+              11
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-dIouRR eOCFIi"
+        >
+          <div
+            class="sc-breuTD ipeUcy sc-hHLeRK iWEOrF"
+          >
+            <img
+              class="sc-ksZaOG cFmwJh"
+              src="/src/assets/icons/InstagramIcon.svg"
+            />
+            <div
+              class="sc-hAZoDl fiGYHm"
+            />
+          </div>
+          <div
+            class="sc-breuTD kqfbDV sc-hHLeRK iWEOrF"
+          >
+            <img
+              class="sc-ksZaOG cFmwJh"
+              src="/src/assets/icons/TwitterIcon.svg"
+            />
+            <div
+              class="sc-gsnTZi efXYKU sc-fnykZs cIhCmT"
+            >
+              10
+            </div>
+          </div>
+          <div
+            class="sc-breuTD kqfbDV sc-hHLeRK iWEOrF"
+          >
+            <img
+              class="sc-ksZaOG cFmwJh"
+              src="/src/assets/icons/FacebookIcon.svg"
+            />
+            <div
+              class="sc-gsnTZi efXYKU sc-fnykZs cIhCmT"
+            >
+              1
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-dmRaPn bzpGvT"
+        >
+          <img
+            class="sc-kgflAQ"
+            src="/src/assets/icons/InfoIcon.svg"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-fLlhyt hvLRO"
+      >
+        <div
+          class="sc-bBrHrO hsSQuB"
+        >
+          05/09/2021
+        </div>
+        <div
+          class="sc-bczRLJ eDWSOr"
+        >
+          Some user message...
+        </div>
+        <div
+          class="sc-bBrHrO hsSQuB"
+        >
+          07/09/2021
+        </div>
+        <div
+          class="sc-bczRLJ cnuXqy"
+        >
+          Some contact message...
+        </div>
+        <div
+          class="sc-kDDrLX kfOvYE sc-ivTmOn gdQqCi"
+        >
+          <input
+            class="sc-iqcoie cnrCVV"
+            placeholder="Send a message..."
+          />
+          <div
+            class="sc-crXcEl hVwXjS"
+          >
+            <img
+              class="sc-evZas ciNblN"
+              src="/src/assets/icons/SendIcon.svg"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

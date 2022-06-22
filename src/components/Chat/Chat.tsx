@@ -3,7 +3,6 @@ import { FacebookIcon, InstagramIcon, TwitterIcon, InfoIcon, SendIcon } from '..
 import { ContactInfo } from '../ContactCard/ContactCard'
 import Message from '../Message'
 import { SocialType } from '../SocialMediaBar/SocialMediaBar'
-import SocialMediaButton from '../SocialMediaButton'
 import { messages } from './data'
 import {
   ChatContactCard,

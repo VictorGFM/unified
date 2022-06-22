@@ -57,7 +57,7 @@ const ContactCard = ({ contact, isSelected, onClick, className }: ContactCardPro
         <ContactStatus status={status} />
       </ContactPhotoDiv>
       <ContactInfoDiv>
-        <ContactName>{contactName}</ContactName>
+        <ContactName></ContactName>
         <PrimaryInfo>{primaryInfo}</PrimaryInfo>
         <SecondaryInfo>{secondaryInfo}</SecondaryInfo>
         {hasUnreadNotifications && (

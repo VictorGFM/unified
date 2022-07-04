@@ -12,7 +12,7 @@ const GroupsPage = () => {
       <GroupsDiv>
         <GroupsHeader>
           <GroupsSearchBar placeholder="Find a group..." icon={SearchIcon} />
-          <Button text="Create Contact" />
+          <Button text="Create Group" />
         </GroupsHeader>
         <GroupsList>
           {groups && groups.map(group => <GroupCard key={group.id} group={group} />)}

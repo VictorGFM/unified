@@ -1,3 +1,4 @@
+import { SocialType } from '../SocialMediaBar/SocialMediaBar'
 import {
   ContactName,
   ContactPhoto,
@@ -13,17 +14,18 @@ export interface Notification {
   contactPhoto: string
   description: string
   time: string
-  socialType: string
+  socialType: SocialType
 }
 
 interface NotificationProps {
   notification: Notification
+  onClick: () => void
 }
 
-const NotificationCard = ({ notification }: NotificationProps) => {
+const NotificationCard = ({ notification, onClick }: NotificationProps) => {
   const { contactName, contactPhoto, description, time, socialType } = notification
   return (
-    <NotificationCardDiv>
+    <NotificationCardDiv onClick={onClick}>
       <ContactPhoto src={contactPhoto} />
       <ContactName>{contactName}</ContactName>
       <NotificationDescription>{description}</NotificationDescription>

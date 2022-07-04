@@ -9,11 +9,14 @@ export const NotificationCardDiv = styled.div`
 
   width: 477px;
   height: 70px;
-  border-top: 1px solid ${COLORS.GREY.THREE};
+  border-bottom: 1px solid ${COLORS.GREY.THREE};
 
   cursor: pointer;
   &:hover {
     background-color: ${COLORS.PURPLE.TWO};
+  }
+  &:last-child {
+    border-bottom: none;
   }
 `
 

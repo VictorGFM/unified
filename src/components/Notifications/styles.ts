@@ -27,6 +27,7 @@ export const NotificationsHeader = styled.div`
   align-items: center;
 
   height: 42px;
+  border-bottom: 1px solid ${COLORS.GREY.THREE};
 `
 
 export const NotificationsTitle = styled.span`

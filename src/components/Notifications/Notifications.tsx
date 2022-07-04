@@ -11,6 +11,7 @@ import {
   SocialButtonsDiv,
 } from './styles'
 import { notifications } from './data'
+import { useNavigate } from 'react-router-dom'
 
 interface Notifications {
   handleCloseNotifications: () => void
@@ -19,6 +20,7 @@ interface Notifications {
 const Notifications = ({ handleCloseNotifications }: Notifications) => {
   const [selectedSocial, setSelectedSocial] = useState('Unified')
   const ref = useRef(null)
+  const navigate = useNavigate()
 
   useEffect(() => {
     const handleClickOutside = event => {
@@ -34,6 +36,10 @@ const Notifications = ({ handleCloseNotifications }: Notifications) => {
 
   const handleClickButton = (socialType: SocialType) => {
     setSelectedSocial(socialType)
+  }
+
+  const handleClickNotification = (socialType: SocialType) => {
+    navigate(`/social/${socialType.toLowerCase()}`)
   }
 
   return (
@@ -70,7 +76,11 @@ const Notifications = ({ handleCloseNotifications }: Notifications) => {
       <NotificationsList>
         {notifications &&
           notifications.map(notification => (
-            <NotificationCard key={notification.id} notification={notification} />
+            <NotificationCard
+              key={notification.id}
+              notification={notification}
+              onClick={() => handleClickNotification(notification.socialType)}
+            />
           ))}
       </NotificationsList>
     </NotificationsDiv>

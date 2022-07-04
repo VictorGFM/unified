@@ -36,15 +36,15 @@ export const Filters: FiltersGroupsData = {
   Others: [
     {
       id: '8',
-      label: 'Other Filter',
+      label: 'Other Filter 1',
     },
     {
       id: '9',
-      label: 'Other Filter',
+      label: 'Other Filter 2',
     },
     {
       id: '10',
-      label: 'Other Filter',
+      label: 'Other Filter 3',
     },
   ],
 }

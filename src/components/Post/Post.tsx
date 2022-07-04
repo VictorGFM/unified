@@ -24,6 +24,8 @@ export interface NumberInteractions {
 export interface PostInterface {
   id: string
   contactName: string
+  contactPhoto: string
+  contactGroup?: string
   postTime: string
   socialType: string
   postDescription: string
@@ -36,12 +38,20 @@ interface PostProps {
 }
 
 const Post = ({ post }: PostProps) => {
-  const { contactName, postTime, socialType, postDescription, postImage, numberInteractions } = post
+  const {
+    contactName,
+    contactPhoto,
+    postTime,
+    socialType,
+    postDescription,
+    postImage,
+    numberInteractions,
+  } = post
   return (
     <PostDiv>
       <PostHeader>
         <ContactPhoto>
-          <ContactPhotoImage src={ProfilePhotoIcon} />
+          <ContactPhotoImage src={contactPhoto} />
         </ContactPhoto>
         <PostInfoDiv>
           <ContactNameDiv>

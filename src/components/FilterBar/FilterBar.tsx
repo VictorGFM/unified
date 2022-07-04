@@ -18,21 +18,32 @@ export interface FiltersGroupsData {
   Others: Filter[]
 }
 
-const FilterBar = () => {
+interface FilterBarProps {
+  handleFilters: (operation: string, type: string, filterLabel: string) => void
+  searchText: string
+  handleSearchBar: (event) => void
+}
+
+const FilterBar = ({ handleFilters, searchText, handleSearchBar }: FilterBarProps) => {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
     <FilterBarDiv isOpen={isOpen}>
       <FilterBarHeader>
-        <InputBar icon={SearchIcon} placeholder="Search..." />
+        <InputBar
+          icon={SearchIcon}
+          value={searchText}
+          placeholder="Search..."
+          onChange={handleSearchBar}
+        />
         <FilterButton onClick={() => setIsOpen(!isOpen)}>
           <FilterButtonIcon src={FilterIcon} />
         </FilterButton>
       </FilterBarHeader>
       <FilterOptions isOpen={isOpen}>
-        <FiltersGroup label="Posts" filters={Filters['Posts']} />
-        <FiltersGroup label="Groups" filters={Filters['Groups']} />
-        <FiltersGroup label="Others" filters={Filters['Others']} />
+        <FiltersGroup label="Posts" filters={Filters['Posts']} handleFilters={handleFilters} />
+        <FiltersGroup label="Groups" filters={Filters['Groups']} handleFilters={handleFilters} />
+        <FiltersGroup label="Others" filters={Filters['Others']} handleFilters={handleFilters} />
       </FilterOptions>
     </FilterBarDiv>
   )

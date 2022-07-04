@@ -9,16 +9,22 @@ export interface Filter {
 interface FiltersGroupProps {
   label: string
   filters: Filter[]
+  handleFilters: (operation: string, type: string, filterLabel: string) => void
 }
 
-const FiltersGroup = ({ label, filters }: FiltersGroupProps) => {
+const FiltersGroup = ({ label, filters, handleFilters }: FiltersGroupProps) => {
   return (
     <FiltersGroupDiv>
       <FiltersGroupLabel>{label}</FiltersGroupLabel>
       <HorizontalLine />
       <FilterOptionsDiv>
         {filters?.map(filter => (
-          <FilterOption key={filter.id} filterLabel={filter.label} />
+          <FilterOption
+            key={filter.id}
+            type={label}
+            filterLabel={filter.label}
+            handleFilters={handleFilters}
+          />
         ))}
       </FilterOptionsDiv>
     </FiltersGroupDiv>

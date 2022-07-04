@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react'
+import { forwardRef, useState } from 'react'
 import { AppIcon, FacebookIcon, InstagramIcon, TwitterIcon } from '../../assets'
 import NotificationCard from '../NotificationCard'
 import { SocialType } from '../SocialMediaBar/SocialMediaBar'
@@ -13,26 +13,9 @@ import {
 import { notifications } from './data'
 import { useNavigate } from 'react-router-dom'
 
-interface Notifications {
-  handleCloseNotifications: () => void
-}
-
-const Notifications = ({ handleCloseNotifications }: Notifications) => {
+const Notifications = ({}, ref) => {
   const [selectedSocial, setSelectedSocial] = useState('Unified')
-  const ref = useRef(null)
   const navigate = useNavigate()
-
-  useEffect(() => {
-    const handleClickOutside = event => {
-      if (ref.current && !ref.current.contains(event.target)) {
-        handleCloseNotifications()
-      }
-    }
-    document.addEventListener('mousedown', handleClickOutside)
-    return () => {
-      document.removeEventListener('mousedown', handleClickOutside)
-    }
-  }, [ref])
 
   const handleClickButton = (socialType: SocialType) => {
     setSelectedSocial(socialType)
@@ -87,4 +70,4 @@ const Notifications = ({ handleCloseNotifications }: Notifications) => {
   )
 }
 
-export default Notifications
+export default forwardRef(Notifications)

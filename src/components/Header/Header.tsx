@@ -10,7 +10,7 @@ import {
 } from '../../assets'
 import HeaderButton from '../HeaderButton/HeaderButton'
 import { useLocation, useNavigate } from 'react-router-dom'
-import { useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import Notifications from '../Notifications'
 
 type ButtonType = 'Home' | 'Groups' | 'Contacts' | 'Messages' | 'Notifications'
@@ -19,6 +19,8 @@ const Header = () => {
   const [isNotificationsOpen, setIsNotificationsOpen] = useState(false)
   const navigate = useNavigate()
   const location = useLocation()
+  const buttonRef = useRef(null)
+  const modalRef = useRef(null)
 
   const currentPage = location.pathname
 
@@ -37,9 +39,23 @@ const Header = () => {
     }
   }
 
-  const handleCloseNotifications = () => {
-    setIsNotificationsOpen(false)
-  }
+  useEffect(() => {
+    const handleClickOutside = event => {
+      if (
+        modalRef.current &&
+        !modalRef.current.contains(event.target) &&
+        buttonRef.current &&
+        !buttonRef.current.contains(event.target)
+      ) {
+        setIsNotificationsOpen(false)
+      }
+    }
+    if (isNotificationsOpen) {
+      document.addEventListener('click', handleClickOutside, false)
+    } else {
+      document.removeEventListener('click', handleClickOutside, false)
+    }
+  }, [isNotificationsOpen])
 
   return (
     <>
@@ -72,12 +88,11 @@ const Header = () => {
             notificationsNumber={31}
             isSelected={isNotificationsOpen}
             handleClick={() => handleClickButton('Notifications')}
+            ref={buttonRef}
           />
           <HeaderButton icon={ProfilePhotoIcon} />
         </ButtonsDiv>
-        {isNotificationsOpen && (
-          <Notifications handleCloseNotifications={handleCloseNotifications} />
-        )}
+        {isNotificationsOpen && <Notifications ref={modalRef} />}
       </HeaderDiv>
     </>
   )

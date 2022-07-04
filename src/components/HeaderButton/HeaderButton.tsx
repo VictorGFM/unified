@@ -1,6 +1,7 @@
 import { HeaderButtonDiv, Button, ButtonIcon } from './styles'
 import NotificationsNumber from '../NotificationsNumber'
 import { ProfilePhotoIcon } from '../../assets'
+import { forwardRef } from 'react'
 
 interface HeaderButtonProps {
   icon: string
@@ -9,16 +10,14 @@ interface HeaderButtonProps {
   handleClick?: () => void
 }
 
-const HeaderButton = ({
-  icon,
-  notificationsNumber,
-  isSelected,
-  handleClick,
-}: HeaderButtonProps) => {
+const HeaderButton = (
+  { icon, notificationsNumber, isSelected, handleClick }: HeaderButtonProps,
+  ref
+) => {
   const isUserProfile = icon === ProfilePhotoIcon
   const showNotificationsNumber = !isUserProfile && notificationsNumber > 0
   return (
-    <HeaderButtonDiv>
+    <HeaderButtonDiv ref={ref}>
       <Button isUserProfile={isUserProfile} isSelected={isSelected} onClick={handleClick}>
         <ButtonIcon src={icon} isUserProfile={isUserProfile} isSelected={isSelected} />
       </Button>
@@ -29,4 +28,4 @@ const HeaderButton = ({
   )
 }
 
-export default HeaderButton
+export default forwardRef(HeaderButton)

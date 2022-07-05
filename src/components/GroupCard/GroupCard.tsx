@@ -2,7 +2,7 @@ import { GroupCardDiv, GroupImage, GroupTitle } from './styles'
 
 export interface Group {
   id: string
-  title: string
+  name: string
   image: string
 }
 
@@ -11,11 +11,11 @@ interface GroupCardProps {
 }
 
 const GroupCard = ({ group }: GroupCardProps) => {
-  const { title, image } = group
+  const { name, image } = group
   return (
     <GroupCardDiv>
       <GroupImage src={image} />
-      <GroupTitle>{title}</GroupTitle>
+      <GroupTitle>{name}</GroupTitle>
     </GroupCardDiv>
   )
 }

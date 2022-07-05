@@ -50,10 +50,6 @@ const HomePage = () => {
     return isFilteredBySearchTest && isFilteredByPosts && isFilteredByGroups
   }
 
-  useEffect(() => {
-    console.log(searchText)
-  }, [searchText])
-
   return (
     <HomePageDiv>
       <FilterBar

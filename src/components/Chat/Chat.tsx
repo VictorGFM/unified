@@ -27,8 +27,11 @@ const Chat = ({ contact }: ChatProps) => {
   const [messages, setMessages] = useState<SocialMessage[]>(
     contact.messages?.[selectedSocial.toLowerCase()]
   )
+  const [searchText, setSearchText] = useState('')
 
-  const unreadMessages = contact.contactNotifications?.messages
+  const handleSearchBar = event => {
+    setSearchText(event.target.value)
+  }
 
   const handleClickButton = (socialType: SocialType) => {
     setSelectedSocial(socialType)
@@ -37,6 +40,8 @@ const Chat = ({ contact }: ChatProps) => {
   useEffect(() => {
     setMessages(contact.messages?.[selectedSocial.toLowerCase()])
   }, [contact, selectedSocial])
+
+  const unreadMessages = contact.contactNotifications?.messages
 
   return (
     <ChatDiv>
@@ -77,7 +82,12 @@ const Chat = ({ contact }: ChatProps) => {
             </Fragment>
           )
         })}
-        <SendMessageBar icon={SendIcon} placeholder="Send a message..." />
+        <SendMessageBar
+          icon={SendIcon}
+          value={searchText}
+          onChange={handleSearchBar}
+          placeholder="Send a message..."
+        />
       </MessagesDiv>
     </ChatDiv>
   )

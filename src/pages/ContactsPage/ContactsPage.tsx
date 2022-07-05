@@ -9,17 +9,34 @@ import Button from '../../components/Button'
 import { SearchIcon } from '../../assets'
 import ContactCard from '../../components/ContactCard'
 import { contacts } from '../MessagesPage/data'
+import { useState } from 'react'
 
 const ContactsPage = () => {
+  const [searchText, setSearchText] = useState('')
+
+  const handleSearchBar = event => {
+    setSearchText(event.target.value)
+  }
   return (
     <ContactsPageDiv>
       <ContactsDiv>
         <ContactsHeader>
-          <ContactsSearchBar placeholder="Find a contact..." icon={SearchIcon} />
+          <ContactsSearchBar
+            value={searchText}
+            onChange={handleSearchBar}
+            placeholder="Find a contact..."
+            icon={SearchIcon}
+          />
           <Button text="Create Contact" />
         </ContactsHeader>
         <ContactsList>
-          {contacts && contacts.map(contact => <ContactCard key={contact.id} contact={contact} />)}
+          {contacts &&
+            contacts.map(
+              contact =>
+                contact.contactName.toLowerCase().includes(searchText.toLowerCase()) && (
+                  <ContactCard key={contact.id} contact={contact} />
+                )
+            )}
         </ContactsList>
       </ContactsDiv>
     </ContactsPageDiv>

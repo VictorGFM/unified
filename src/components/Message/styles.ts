@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import { COLORS } from '../../styles/global'
 
-const LOGGED_USER = 'Victor Moraes'
+export const LOGGED_USER = 'Victor Moraes'
 
 export const MessageDiv = styled.div<{ author: string }>`
   display: flex;

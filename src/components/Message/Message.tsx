@@ -27,7 +27,7 @@ const Message = ({ message }: MessageProps) => {
   return (
     <MessageDiv author={author}>
       {text}
-      <MessageTime>{datetime.format('HH:MM')}</MessageTime>
+      <MessageTime>{datetime.format('HH:mm')}</MessageTime>
     </MessageDiv>
   )
 }

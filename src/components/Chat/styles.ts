@@ -29,6 +29,7 @@ export const SocialBar = styled.div`
   width: 100%;
   height: 71px;
   border-bottom: solid ${COLORS.GREY.ONE} 1px;
+  box-sizing: border-box;
 `
 
 export const ChatContactCard = styled(ContactCard)`
@@ -104,10 +105,14 @@ export const MessagesDiv = styled.div`
   flex-direction: column;
   justify-content: flex-end;
 
-  height: 100%;
+  height: 510px;
   border-bottom-right-radius: 7px;
 
   background-color: ${COLORS.WHITE.ONE};
+`
+
+export const MessagesWrapper = styled.div`
+  overflow: auto;
 `
 
 export const MessageDate = styled.div`
@@ -130,12 +135,13 @@ export const SendMessageBar = styled(InputBar)`
   box-sizing: border-box;
 
   ${InputBarInput} {
+    height: 47px;
     padding-left: 18px;
 
     border-radius: 10px;
   }
   ${InputButton} {
-    height: 50px;
+    height: 47px;
     margin-right: 17px;
     ${InputButtonIcon} {
       width: 25px;

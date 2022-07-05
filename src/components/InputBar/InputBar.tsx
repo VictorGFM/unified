@@ -6,13 +6,28 @@ interface InputBarProps {
   value: string
   placeholder?: string
   onChange: (event) => void
+  onKeyDown?: (event) => void
+  onClick?: () => void
 }
 
-const InputBar = ({ icon, className, value, placeholder, onChange }: InputBarProps) => {
+const InputBar = ({
+  icon,
+  className,
+  value,
+  placeholder,
+  onChange,
+  onKeyDown,
+  onClick,
+}: InputBarProps) => {
   return (
     <InputBarDiv className={className}>
-      <InputBarInput placeholder={placeholder} value={value} onChange={onChange} />
-      <InputButton>
+      <InputBarInput
+        placeholder={placeholder}
+        value={value}
+        onChange={onChange}
+        onKeyDown={onKeyDown}
+      />
+      <InputButton onClick={onClick}>
         <InputButtonIcon src={icon} />
       </InputButton>
     </InputBarDiv>

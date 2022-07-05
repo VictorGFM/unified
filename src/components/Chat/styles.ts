@@ -113,6 +113,7 @@ export const MessagesDiv = styled.div`
 
 export const MessagesWrapper = styled.div`
   overflow: auto;
+  overflow-x: hidden;
 `
 
 export const MessageDate = styled.div`

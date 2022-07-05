@@ -33,5 +33,6 @@ export const ContactCardDiv = styled.div`
   margin-bottom: 7px;
 
   overflow: auto;
+  overflow-x: hidden;
   box-sizing: border-box;
 `

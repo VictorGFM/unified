@@ -14,6 +14,7 @@ export const ContentDiv = styled.div`
   background-color: ${COLORS.GREY.SIX};
 
   overflow: auto;
+  overflow-x: hidden;
 `
 
 export const SocialMediaApp = styled.img`

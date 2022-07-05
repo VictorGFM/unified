@@ -1,5 +1,15 @@
 html {
   height: 100%;
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: #bfbfbf;
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #a4a4a4;
+  }
 }
 
 body {

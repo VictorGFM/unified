@@ -24,6 +24,7 @@ export const ContactStoryButton = styled.div`
   box-sizing: border-box;
   cursor: pointer;
   overflow: hidden;
+  overflow-x: hidden;
 `
 
 export const ContactPhoto = styled.img`

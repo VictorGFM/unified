@@ -25,4 +25,5 @@ export const FilterOptionsDiv = styled.div`
   padding-left: 5px;
 
   overflow: scroll;
+  overflow-x: hidden;
 `

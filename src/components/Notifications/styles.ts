@@ -73,6 +73,7 @@ export const NotificationsSocialButton = styled(SocialMediaButton)`
 
 export const NotificationsList = styled.div`
   overflow: auto;
+  overflow-x: hidden;
 
   :last-child {
     border-bottom-left-radius: 7px;

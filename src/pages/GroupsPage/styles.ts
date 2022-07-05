@@ -72,6 +72,7 @@ export const GroupsList = styled.div`
   margin-bottom: 5px;
 
   overflow: auto;
+  overflow-x: hidden;
   ${ContactCardDiv} {
     width: 230px;
     height: 90px;

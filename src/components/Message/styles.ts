@@ -5,9 +5,10 @@ const LOGGED_USER = 'Victor Moraes'
 
 export const MessageDiv = styled.div<{ author: string }>`
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 
-  height: 44px;
+  height: 50px;
   width: 240px;
   padding-left: 18px;
   margin: 10px 0px 0px 27px;
@@ -16,7 +17,7 @@ export const MessageDiv = styled.div<{ author: string }>`
   line-height: 20px;
 
   border-radius: 15px;
-  background-color: ${COLORS.WHITE.ONE};
+  background-color: ${COLORS.GREY.EIGHT};
 
   ${({ author }) => {
     if (author === LOGGED_USER) {
@@ -28,4 +29,15 @@ export const MessageDiv = styled.div<{ author: string }>`
       `
     }
   }}
+`
+
+export const MessageTime = styled.div`
+  display: flex;
+  justify-content: flex-end;
+
+  font-size: 12px;
+  color: ${COLORS.GREY.ONE};
+  line-height: 10px;
+
+  margin-right: 15px;
 `

@@ -1,4 +1,4 @@
-import NotificationsNumber from '../NotificationsNumber'
+import { Messages } from '../Message/Message'
 import {
   ContactCardDiv,
   ContactInfoDiv,
@@ -32,6 +32,7 @@ export interface ContactInfo {
   primaryInfo?: string
   secondaryInfo?: string
   contactNotifications?: ContactNotifications
+  messages?: Messages
 }
 
 interface ContactCardProps {

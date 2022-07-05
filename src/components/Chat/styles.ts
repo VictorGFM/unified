@@ -28,6 +28,7 @@ export const SocialBar = styled.div`
 
   width: 100%;
   height: 71px;
+  border-bottom: solid ${COLORS.GREY.ONE} 1px;
 `
 
 export const ChatContactCard = styled(ContactCard)`
@@ -106,7 +107,7 @@ export const MessagesDiv = styled.div`
   height: 100%;
   border-bottom-right-radius: 7px;
 
-  background-color: ${COLORS.GREY.EIGHT};
+  background-color: ${COLORS.WHITE.ONE};
 `
 
 export const MessageDate = styled.div`

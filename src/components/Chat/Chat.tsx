@@ -1,9 +1,10 @@
-import { useState } from 'react'
+import { Fragment, useEffect, useState } from 'react'
 import { FacebookIcon, InstagramIcon, TwitterIcon, InfoIcon, SendIcon } from '../../assets'
 import { ContactInfo } from '../ContactCard/ContactCard'
 import Message from '../Message'
+import { SocialMessage } from '../Message/Message'
 import { SocialType } from '../SocialMediaBar/SocialMediaBar'
-import { messages } from './data'
+
 import {
   ChatContactCard,
   ChatDiv,
@@ -23,12 +24,19 @@ interface ChatProps {
 
 const Chat = ({ contact }: ChatProps) => {
   const [selectedSocial, setSelectedSocial] = useState('Instagram')
+  const [messages, setMessages] = useState<SocialMessage[]>(
+    contact.messages?.[selectedSocial.toLowerCase()]
+  )
 
   const unreadMessages = contact.contactNotifications?.messages
 
   const handleClickButton = (socialType: SocialType) => {
     setSelectedSocial(socialType)
   }
+
+  useEffect(() => {
+    setMessages(contact.messages?.[selectedSocial.toLowerCase()])
+  }, [contact, selectedSocial])
 
   return (
     <ChatDiv>
@@ -59,10 +67,16 @@ const Chat = ({ contact }: ChatProps) => {
         </InfoButton>
       </SocialBar>
       <MessagesDiv>
-        <MessageDate>05/09/2021</MessageDate>
-        <Message message={messages[0]} />
-        <MessageDate>07/09/2021</MessageDate>
-        <Message message={messages[1]} />
+        {messages?.map((socialMessage, index) => {
+          return (
+            <Fragment key={index}>
+              <MessageDate>{socialMessage?.date.format('DD/MM/YYYY')}</MessageDate>
+              {socialMessage.messages?.map((message, index) => {
+                return <Message key={index} message={message} />
+              })}
+            </Fragment>
+          )
+        })}
         <SendMessageBar icon={SendIcon} placeholder="Send a message..." />
       </MessagesDiv>
     </ChatDiv>

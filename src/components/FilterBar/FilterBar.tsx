@@ -35,8 +35,9 @@ const FilterBar = ({ handleFilters, searchText, handleSearchBar }: FilterBarProp
           value={searchText}
           placeholder="Search..."
           onChange={handleSearchBar}
+          dataCY={`home-search-filter`}
         />
-        <FilterButton onClick={() => setIsOpen(!isOpen)}>
+        <FilterButton onClick={() => setIsOpen(!isOpen)} data-cy={`filter-button`}>
           <FilterButtonIcon src={FilterIcon} />
         </FilterButton>
       </FilterBarHeader>

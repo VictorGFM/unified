@@ -25,17 +25,19 @@ const ContactMessages = ({ selectedContactID, handleSelectContact }: ContactMess
         value={searchText}
         onChange={handleSearchBar}
         placeholder="Find a message..."
+        dataCY={`message-search-bar`}
       />
       <ContactCardDiv>
         {contacts &&
           contacts.map(
-            contact =>
+            (contact, index) =>
               contact.primaryInfo?.toLowerCase().includes(searchText.toLowerCase()) && (
                 <ContactCard
                   key={contact.id}
                   contact={contact}
                   onClick={() => handleSelectContact(contact)}
                   isSelected={selectedContactID === contact.id}
+                  dataCY={`contact-card-${index}`}
                 />
               )
           )}

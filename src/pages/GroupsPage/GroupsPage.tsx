@@ -23,6 +23,7 @@ const GroupsPage = () => {
             onChange={handleSearchBar}
             placeholder="Find a group..."
             icon={SearchIcon}
+            dataCY={`groups-search-bar`}
           />
           <Button text="Create Group" />
         </GroupsHeader>

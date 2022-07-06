@@ -6,6 +6,7 @@ interface SocialMediaButtonProps {
   onClick?: () => void
   unreadMessages?: number
   className?: string
+  dataCY?: string
 }
 
 const SocialMediaButton = ({
@@ -14,11 +15,17 @@ const SocialMediaButton = ({
   onClick,
   unreadMessages,
   className,
+  dataCY,
 }: SocialMediaButtonProps) => {
   const hasUnreadNotifications = Boolean(unreadMessages) && !isSelected
 
   return (
-    <SocialMediaButtonDiv isSelected={isSelected} onClick={onClick} className={className}>
+    <SocialMediaButtonDiv
+      isSelected={isSelected}
+      onClick={onClick}
+      className={className}
+      data-cy={dataCY}
+    >
       <Icon src={icon} />
       {isSelected && <SelectedBar />}
       {hasUnreadNotifications && <SocialUnreadMessagesNumber number={unreadMessages} />}

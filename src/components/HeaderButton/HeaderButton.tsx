@@ -8,16 +8,17 @@ interface HeaderButtonProps {
   notificationsNumber?: number
   isSelected?: boolean
   handleClick?: () => void
+  dataCY?: string
 }
 
 const HeaderButton = (
-  { icon, notificationsNumber, isSelected, handleClick }: HeaderButtonProps,
+  { icon, notificationsNumber, isSelected, handleClick, dataCY }: HeaderButtonProps,
   ref
 ) => {
   const isUserProfile = icon === ProfilePhotoIcon
   const showNotificationsNumber = !isUserProfile && notificationsNumber > 0
   return (
-    <HeaderButtonDiv ref={ref}>
+    <HeaderButtonDiv ref={ref} data-cy={dataCY}>
       <Button isUserProfile={isUserProfile} isSelected={isSelected} onClick={handleClick}>
         <ButtonIcon src={icon} isUserProfile={isUserProfile} isSelected={isSelected} />
       </Button>

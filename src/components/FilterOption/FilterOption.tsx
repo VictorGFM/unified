@@ -6,9 +6,10 @@ interface FilterOptionsProps {
   filterLabel: string
   type: string
   handleFilters: (operation: string, type: string, filterLabel: string) => void
+  dataCY?: string
 }
 
-const FilterOption = ({ filterLabel, type, handleFilters }: FilterOptionsProps) => {
+const FilterOption = ({ filterLabel, type, handleFilters, dataCY }: FilterOptionsProps) => {
   const [isChecked, setIsChecked] = useState(false)
 
   const handleClickCheckbox = () => {
@@ -25,7 +26,7 @@ const FilterOption = ({ filterLabel, type, handleFilters }: FilterOptionsProps) 
 
   return (
     <FilterOptionDiv>
-      <FilterCheckbox isChecked={isChecked} onClick={handleClickCheckbox}>
+      <FilterCheckbox isChecked={isChecked} onClick={handleClickCheckbox} data-cy={dataCY}>
         <FilterCheckedImage src={CheckIcon} />
       </FilterCheckbox>
       <FilterLabel>{filterLabel}</FilterLabel>

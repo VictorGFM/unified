@@ -106,18 +106,21 @@ const Chat = ({ contact }: ChatProps) => {
             isSelected={selectedSocial === 'Instagram'}
             onClick={() => handleClickButton('Instagram')}
             unreadMessages={unreadMessages?.instagram}
+            dataCY={`chat-social-media-button-instagram`}
           />
           <ChatSocialMediaButton
             icon={TwitterIcon}
             isSelected={selectedSocial === 'Twitter'}
             onClick={() => handleClickButton('Twitter')}
             unreadMessages={unreadMessages?.twitter}
+            dataCY={`chat-social-media-button-twitter`}
           />
           <ChatSocialMediaButton
             icon={FacebookIcon}
             isSelected={selectedSocial === 'Facebook'}
             onClick={() => handleClickButton('Facebook')}
             unreadMessages={unreadMessages?.facebook}
+            dataCY={`chat-social-media-button-facebook`}
           />
         </SocialMediaButtonsDiv>
         <InfoButton>
@@ -144,6 +147,7 @@ const Chat = ({ contact }: ChatProps) => {
           placeholder="Send a message..."
           onClick={handleSendMessage}
           onKeyDown={handleKeyDown}
+          dataCY={`send-message-bar`}
         />
       </MessagesDiv>
     </ChatDiv>

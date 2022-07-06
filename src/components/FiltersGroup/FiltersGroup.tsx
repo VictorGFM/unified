@@ -18,12 +18,13 @@ const FiltersGroup = ({ label, filters, handleFilters }: FiltersGroupProps) => {
       <FiltersGroupLabel>{label}</FiltersGroupLabel>
       <HorizontalLine />
       <FilterOptionsDiv>
-        {filters?.map(filter => (
+        {filters?.map((filter, index) => (
           <FilterOption
             key={filter.id}
             type={label}
             filterLabel={filter.label}
             handleFilters={handleFilters}
+            dataCY={`filter-option-${label.toLowerCase()}-${index}`}
           />
         ))}
       </FilterOptionsDiv>

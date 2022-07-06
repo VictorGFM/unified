@@ -8,6 +8,7 @@ interface InputBarProps {
   onChange: (event) => void
   onKeyDown?: (event) => void
   onClick?: () => void
+  dataCY?: string
 }
 
 const InputBar = ({
@@ -18,6 +19,7 @@ const InputBar = ({
   onChange,
   onKeyDown,
   onClick,
+  dataCY,
 }: InputBarProps) => {
   return (
     <InputBarDiv className={className}>
@@ -26,6 +28,7 @@ const InputBar = ({
         value={value}
         onChange={onChange}
         onKeyDown={onKeyDown}
+        data-cy={dataCY}
       />
       <InputButton onClick={onClick}>
         <InputButtonIcon src={icon} />

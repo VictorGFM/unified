@@ -26,6 +26,7 @@ const ContactsPage = () => {
             onChange={handleSearchBar}
             placeholder="Find a contact..."
             icon={SearchIcon}
+            dataCY={`contact-search-bar`}
           />
           <Button text="Create Contact" />
         </ContactsHeader>

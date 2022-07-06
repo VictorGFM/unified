@@ -66,22 +66,26 @@ const Header = () => {
             icon={HomeIcon}
             isSelected={currentPage === buttonRoutes['Home']}
             handleClick={() => handleClickButton('Home')}
+            dataCY="header-button-home"
           />
           <HeaderButton
             icon={GroupsIcon}
             isSelected={currentPage === buttonRoutes['Groups']}
             handleClick={() => handleClickButton('Groups')}
+            dataCY="header-button-groups"
           />
           <HeaderButton
             icon={ContactsIcon}
             isSelected={currentPage === buttonRoutes['Contacts']}
             handleClick={() => handleClickButton('Contacts')}
+            dataCY="header-button-contacts"
           />
           <HeaderButton
             icon={MessagesIcon}
             notificationsNumber={31}
             isSelected={currentPage === buttonRoutes['Messages']}
             handleClick={() => handleClickButton('Messages')}
+            dataCY="header-button-messages"
           />
           <HeaderButton
             icon={NotificationsIcon}
@@ -89,6 +93,7 @@ const Header = () => {
             isSelected={isNotificationsOpen}
             handleClick={() => handleClickButton('Notifications')}
             ref={buttonRef}
+            dataCY="header-button-notifications"
           />
           <HeaderButton icon={ProfilePhotoIcon} />
         </ButtonsDiv>

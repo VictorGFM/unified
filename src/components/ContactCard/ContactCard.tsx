@@ -40,9 +40,10 @@ interface ContactCardProps {
   onClick?: () => void
   isSelected?: boolean
   className?: string
+  dataCY?: string
 }
 
-const ContactCard = ({ contact, isSelected, onClick, className }: ContactCardProps) => {
+const ContactCard = ({ contact, isSelected, onClick, className, dataCY }: ContactCardProps) => {
   const { contactName, contactPhoto, status, primaryInfo, secondaryInfo, contactNotifications } =
     contact
   const hasUnreadNotifications = Boolean(contactNotifications)
@@ -52,6 +53,7 @@ const ContactCard = ({ contact, isSelected, onClick, className }: ContactCardPro
       hasUnreadNotifications={hasUnreadNotifications}
       onClick={onClick}
       className={className}
+      data-cy={dataCY}
     >
       <ContactPhotoDiv>
         <ContactPhoto src={contactPhoto} />

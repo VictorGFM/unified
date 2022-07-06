@@ -20,12 +20,13 @@ export interface Notification {
 interface NotificationProps {
   notification: Notification
   onClick: () => void
+  dataCY?: string
 }
 
-const NotificationCard = ({ notification, onClick }: NotificationProps) => {
+const NotificationCard = ({ notification, onClick, dataCY }: NotificationProps) => {
   const { contactName, contactPhoto, description, time, socialType } = notification
   return (
-    <NotificationCardDiv onClick={onClick}>
+    <NotificationCardDiv onClick={onClick} data-cy={dataCY}>
       <ContactPhoto src={contactPhoto} />
       <ContactName>{contactName}</ContactName>
       <NotificationDescription>{description}</NotificationDescription>

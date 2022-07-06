@@ -58,11 +58,12 @@ const Notifications = ({}, ref) => {
       </NotificationsHeader>
       <NotificationsList>
         {notifications &&
-          notifications.map(notification => (
+          notifications.map((notification, index) => (
             <NotificationCard
               key={notification.id}
               notification={notification}
               onClick={() => handleClickNotification(notification.socialType)}
+              dataCY={`notificaiton-card-${index}`}
             />
           ))}
       </NotificationsList>

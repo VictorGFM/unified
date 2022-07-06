@@ -47,21 +47,25 @@ const SocialMediaBar = () => {
               currentLocation !== socialRoutes['Facebook']
             }
             onClick={() => handleClickButton('Unified')}
+            dataCY={`social-media-button-unified`}
           />
           <SocialMediaButton
             icon={InstagramIcon}
             isSelected={currentLocation === socialRoutes['Instagram']}
             onClick={() => handleClickButton('Instagram')}
+            dataCY={`social-media-button-instagram`}
           />
           <SocialMediaButton
             icon={TwitterIcon}
             isSelected={currentLocation === socialRoutes['Twitter']}
             onClick={() => handleClickButton('Twitter')}
+            dataCY={`social-media-button-twitter`}
           />
           <SocialMediaButton
             icon={FacebookIcon}
             isSelected={currentLocation === socialRoutes['Facebook']}
             onClick={() => handleClickButton('Facebook')}
+            dataCY={`social-media-button-facebook`}
           />
         </SocialMediaButtonsDiv>
       )}

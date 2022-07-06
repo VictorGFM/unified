@@ -13,6 +13,7 @@ exports[`<SocialMediaBar/> > should show match snapshot 1`] = `
         >
           <div
             class="sc-jSMfEi hdIjdc"
+            data-cy="social-media-button-unified"
           >
             <img
               class="sc-gKXOVf bWeCPV"
@@ -24,6 +25,7 @@ exports[`<SocialMediaBar/> > should show match snapshot 1`] = `
           </div>
           <div
             class="sc-jSMfEi ikLAlr"
+            data-cy="social-media-button-instagram"
           >
             <img
               class="sc-gKXOVf bWeCPV"
@@ -32,6 +34,7 @@ exports[`<SocialMediaBar/> > should show match snapshot 1`] = `
           </div>
           <div
             class="sc-jSMfEi ikLAlr"
+            data-cy="social-media-button-twitter"
           >
             <img
               class="sc-gKXOVf bWeCPV"
@@ -40,6 +43,7 @@ exports[`<SocialMediaBar/> > should show match snapshot 1`] = `
           </div>
           <div
             class="sc-jSMfEi ikLAlr"
+            data-cy="social-media-button-facebook"
           >
             <img
               class="sc-gKXOVf bWeCPV"
@@ -67,6 +71,7 @@ exports[`<SocialMediaBar/> > should show match snapshot 1`] = `
       >
         <div
           class="sc-jSMfEi hdIjdc"
+          data-cy="social-media-button-unified"
         >
           <img
             class="sc-gKXOVf bWeCPV"
@@ -78,6 +83,7 @@ exports[`<SocialMediaBar/> > should show match snapshot 1`] = `
         </div>
         <div
           class="sc-jSMfEi ikLAlr"
+          data-cy="social-media-button-instagram"
         >
           <img
             class="sc-gKXOVf bWeCPV"
@@ -86,6 +92,7 @@ exports[`<SocialMediaBar/> > should show match snapshot 1`] = `
         </div>
         <div
           class="sc-jSMfEi ikLAlr"
+          data-cy="social-media-button-twitter"
         >
           <img
             class="sc-gKXOVf bWeCPV"
@@ -94,6 +101,7 @@ exports[`<SocialMediaBar/> > should show match snapshot 1`] = `
         </div>
         <div
           class="sc-jSMfEi ikLAlr"
+          data-cy="social-media-button-facebook"
         >
           <img
             class="sc-gKXOVf bWeCPV"

@@ -17,13 +17,14 @@ exports[`<FiltersGroup/> > should show match snapshot 1`] = `
           class="sc-gKXOVf fXlcGr"
         />
         <div
-          class="sc-iBkjds cerxeT"
+          class="sc-iBkjds kiPysD"
         >
           <div
             class="sc-bczRLJ cGEKIa"
           >
             <div
               class="sc-gsnTZi ghCkhD"
+              data-cy="filter-option-posts-0"
             >
               <img
                 class="sc-dkzDqf"
@@ -41,6 +42,7 @@ exports[`<FiltersGroup/> > should show match snapshot 1`] = `
           >
             <div
               class="sc-gsnTZi ghCkhD"
+              data-cy="filter-option-posts-1"
             >
               <img
                 class="sc-dkzDqf"
@@ -58,6 +60,7 @@ exports[`<FiltersGroup/> > should show match snapshot 1`] = `
           >
             <div
               class="sc-gsnTZi ghCkhD"
+              data-cy="filter-option-posts-2"
             >
               <img
                 class="sc-dkzDqf"
@@ -87,13 +90,14 @@ exports[`<FiltersGroup/> > should show match snapshot 1`] = `
         class="sc-gKXOVf fXlcGr"
       />
       <div
-        class="sc-iBkjds cerxeT"
+        class="sc-iBkjds kiPysD"
       >
         <div
           class="sc-bczRLJ cGEKIa"
         >
           <div
             class="sc-gsnTZi ghCkhD"
+            data-cy="filter-option-posts-0"
           >
             <img
               class="sc-dkzDqf"
@@ -111,6 +115,7 @@ exports[`<FiltersGroup/> > should show match snapshot 1`] = `
         >
           <div
             class="sc-gsnTZi ghCkhD"
+            data-cy="filter-option-posts-1"
           >
             <img
               class="sc-dkzDqf"
@@ -128,6 +133,7 @@ exports[`<FiltersGroup/> > should show match snapshot 1`] = `
         >
           <div
             class="sc-gsnTZi ghCkhD"
+            data-cy="filter-option-posts-2"
           >
             <img
               class="sc-dkzDqf"

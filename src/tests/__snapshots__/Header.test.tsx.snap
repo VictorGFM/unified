@@ -17,6 +17,7 @@ exports[`<Header/> > should show match snapshot 1`] = `
         >
           <div
             class="sc-hKMtZM YDUQe"
+            data-cy="header-button-home"
           >
             <div
               class="sc-eCYdqJ ipwMuM"
@@ -29,6 +30,7 @@ exports[`<Header/> > should show match snapshot 1`] = `
           </div>
           <div
             class="sc-hKMtZM YDUQe"
+            data-cy="header-button-groups"
           >
             <div
               class="sc-eCYdqJ ipwMuM"
@@ -41,6 +43,7 @@ exports[`<Header/> > should show match snapshot 1`] = `
           </div>
           <div
             class="sc-hKMtZM YDUQe"
+            data-cy="header-button-contacts"
           >
             <div
               class="sc-eCYdqJ ipwMuM"
@@ -53,6 +56,7 @@ exports[`<Header/> > should show match snapshot 1`] = `
           </div>
           <div
             class="sc-hKMtZM YDUQe"
+            data-cy="header-button-messages"
           >
             <div
               class="sc-eCYdqJ ipwMuM"
@@ -70,6 +74,7 @@ exports[`<Header/> > should show match snapshot 1`] = `
           </div>
           <div
             class="sc-hKMtZM YDUQe"
+            data-cy="header-button-notifications"
           >
             <div
               class="sc-eCYdqJ ipwMuM"
@@ -114,6 +119,7 @@ exports[`<Header/> > should show match snapshot 1`] = `
       >
         <div
           class="sc-hKMtZM YDUQe"
+          data-cy="header-button-home"
         >
           <div
             class="sc-eCYdqJ ipwMuM"
@@ -126,6 +132,7 @@ exports[`<Header/> > should show match snapshot 1`] = `
         </div>
         <div
           class="sc-hKMtZM YDUQe"
+          data-cy="header-button-groups"
         >
           <div
             class="sc-eCYdqJ ipwMuM"
@@ -138,6 +145,7 @@ exports[`<Header/> > should show match snapshot 1`] = `
         </div>
         <div
           class="sc-hKMtZM YDUQe"
+          data-cy="header-button-contacts"
         >
           <div
             class="sc-eCYdqJ ipwMuM"
@@ -150,6 +158,7 @@ exports[`<Header/> > should show match snapshot 1`] = `
         </div>
         <div
           class="sc-hKMtZM YDUQe"
+          data-cy="header-button-messages"
         >
           <div
             class="sc-eCYdqJ ipwMuM"
@@ -167,6 +176,7 @@ exports[`<Header/> > should show match snapshot 1`] = `
         </div>
         <div
           class="sc-hKMtZM YDUQe"
+          data-cy="header-button-notifications"
         >
           <div
             class="sc-eCYdqJ ipwMuM"

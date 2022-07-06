@@ -9,7 +9,7 @@ exports[`<ContactStory/> > should show match snapshot 1`] = `
         class="sc-bczRLJ mKoYI"
       >
         <div
-          class="sc-gsnTZi liUpCO"
+          class="sc-gsnTZi dOfiCW"
         >
           <img
             class="sc-dkzDqf kmAHmU"
@@ -29,7 +29,7 @@ exports[`<ContactStory/> > should show match snapshot 1`] = `
       class="sc-bczRLJ mKoYI"
     >
       <div
-        class="sc-gsnTZi liUpCO"
+        class="sc-gsnTZi dOfiCW"
       >
         <img
           class="sc-dkzDqf kmAHmU"

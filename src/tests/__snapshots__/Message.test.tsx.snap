@@ -6,17 +6,27 @@ exports[`<Message/> > should show match snapshot 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="sc-bczRLJ eDWSOr"
+        class="sc-bczRLJ cqeBZp"
       >
-        Some user message...
+        My message...
+        <div
+          class="sc-gsnTZi drlYoe"
+        >
+          10:05
+        </div>
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="sc-bczRLJ eDWSOr"
+      class="sc-bczRLJ cqeBZp"
     >
-      Some user message...
+      My message...
+      <div
+        class="sc-gsnTZi drlYoe"
+      >
+        10:05
+      </div>
     </div>
   </div>,
   "debug": [Function],

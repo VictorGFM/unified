@@ -10,6 +10,7 @@ exports[`<InputBar/> > should show match snapshot 1`] = `
       >
         <input
           class="sc-gsnTZi hzrKxs"
+          value="some value"
         />
         <div
           class="sc-dkzDqf geLXev"
@@ -27,6 +28,7 @@ exports[`<InputBar/> > should show match snapshot 1`] = `
     >
       <input
         class="sc-gsnTZi hzrKxs"
+        value="some value"
       />
       <div
         class="sc-dkzDqf geLXev"

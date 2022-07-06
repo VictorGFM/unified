@@ -5,7 +5,9 @@ import { Filters } from '../components/FilterBar/data'
 
 describe('<FiltersGroup/>', () => {
   it('should show match snapshot', () => {
-    const component = render(<FiltersGroup label="Posts" filters={Filters['Posts']} />)
+    const component = render(
+      <FiltersGroup label="Posts" filters={Filters['Posts']} handleFilters={() => {}} />
+    )
 
     expect(component).toMatchSnapshot()
   })

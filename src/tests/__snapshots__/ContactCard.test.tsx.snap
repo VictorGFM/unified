@@ -6,14 +6,14 @@ exports[`<ContactCard/> > should show match snapshot 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="sc-gsnTZi chrWPs"
+        class="sc-gsnTZi iVhMpq"
       >
         <div
           class="sc-dkzDqf dLnJYs"
         >
           <img
             class="sc-hKMtZM dRJluC"
-            src="/src/assets/icons/AlfredoPhotoIcon.svg"
+            src="/src/assets/icons/ContactPhotoIcon.svg"
           />
           <div
             class="sc-eCYdqJ bxYoVj"
@@ -24,36 +24,33 @@ exports[`<ContactCard/> > should show match snapshot 1`] = `
         >
           <div
             class="sc-gKXOVf iggmwT"
-          />
+          >
+            Contact Name
+          </div>
           <span
             class="sc-iBkjds bbjXlC"
           >
-            Au Au Au...
+            Some message...
           </span>
           <span
             class="sc-ftvSup gpuNio"
           >
-            Dec 5, 2021
+            Dec 15, 2021
           </span>
-          <div
-            class="sc-bczRLJ jTkryC sc-papXJ gfACav"
-          >
-            11
-          </div>
         </div>
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="sc-gsnTZi chrWPs"
+      class="sc-gsnTZi iVhMpq"
     >
       <div
         class="sc-dkzDqf dLnJYs"
       >
         <img
           class="sc-hKMtZM dRJluC"
-          src="/src/assets/icons/AlfredoPhotoIcon.svg"
+          src="/src/assets/icons/ContactPhotoIcon.svg"
         />
         <div
           class="sc-eCYdqJ bxYoVj"
@@ -64,22 +61,19 @@ exports[`<ContactCard/> > should show match snapshot 1`] = `
       >
         <div
           class="sc-gKXOVf iggmwT"
-        />
+        >
+          Contact Name
+        </div>
         <span
           class="sc-iBkjds bbjXlC"
         >
-          Au Au Au...
+          Some message...
         </span>
         <span
           class="sc-ftvSup gpuNio"
         >
-          Dec 5, 2021
+          Dec 15, 2021
         </span>
-        <div
-          class="sc-bczRLJ jTkryC sc-papXJ gfACav"
-        >
-          11
-        </div>
       </div>
     </div>
   </div>,

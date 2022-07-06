@@ -16,7 +16,9 @@ exports[`<FilterBar/> > should show match snapshot 1`] = `
           >
             <input
               class="sc-evZas gYIiKi"
+              data-cy="home-search-filter"
               placeholder="Search..."
+              value="some text"
             />
             <div
               class="sc-breuTD hJnmYB"
@@ -29,6 +31,7 @@ exports[`<FilterBar/> > should show match snapshot 1`] = `
           </div>
           <div
             class="sc-dkzDqf kFWBN"
+            data-cy="filter-button"
           >
             <img
               class="sc-hKMtZM iTFQlP"
@@ -51,13 +54,14 @@ exports[`<FilterBar/> > should show match snapshot 1`] = `
               class="sc-kDDrLX ifrIVl"
             />
             <div
-              class="sc-iqcoie hkcSAG"
+              class="sc-iqcoie doJWYy"
             >
               <div
                 class="sc-jSMfEi dTXaiz"
               >
                 <div
                   class="sc-gKXOVf knmpTR"
+                  data-cy="filter-option-posts-0"
                 >
                   <img
                     class="sc-iBkjds"
@@ -75,6 +79,7 @@ exports[`<FilterBar/> > should show match snapshot 1`] = `
               >
                 <div
                   class="sc-gKXOVf knmpTR"
+                  data-cy="filter-option-posts-1"
                 >
                   <img
                     class="sc-iBkjds"
@@ -92,6 +97,7 @@ exports[`<FilterBar/> > should show match snapshot 1`] = `
               >
                 <div
                   class="sc-gKXOVf knmpTR"
+                  data-cy="filter-option-posts-2"
                 >
                   <img
                     class="sc-iBkjds"
@@ -118,13 +124,14 @@ exports[`<FilterBar/> > should show match snapshot 1`] = `
               class="sc-kDDrLX ifrIVl"
             />
             <div
-              class="sc-iqcoie hkcSAG"
+              class="sc-iqcoie doJWYy"
             >
               <div
                 class="sc-jSMfEi dTXaiz"
               >
                 <div
                   class="sc-gKXOVf knmpTR"
+                  data-cy="filter-option-groups-0"
                 >
                   <img
                     class="sc-iBkjds"
@@ -142,6 +149,7 @@ exports[`<FilterBar/> > should show match snapshot 1`] = `
               >
                 <div
                   class="sc-gKXOVf knmpTR"
+                  data-cy="filter-option-groups-1"
                 >
                   <img
                     class="sc-iBkjds"
@@ -159,6 +167,7 @@ exports[`<FilterBar/> > should show match snapshot 1`] = `
               >
                 <div
                   class="sc-gKXOVf knmpTR"
+                  data-cy="filter-option-groups-2"
                 >
                   <img
                     class="sc-iBkjds"
@@ -176,6 +185,7 @@ exports[`<FilterBar/> > should show match snapshot 1`] = `
               >
                 <div
                   class="sc-gKXOVf knmpTR"
+                  data-cy="filter-option-groups-3"
                 >
                   <img
                     class="sc-iBkjds"
@@ -202,13 +212,14 @@ exports[`<FilterBar/> > should show match snapshot 1`] = `
               class="sc-kDDrLX ifrIVl"
             />
             <div
-              class="sc-iqcoie hkcSAG"
+              class="sc-iqcoie doJWYy"
             >
               <div
                 class="sc-jSMfEi dTXaiz"
               >
                 <div
                   class="sc-gKXOVf knmpTR"
+                  data-cy="filter-option-others-0"
                 >
                   <img
                     class="sc-iBkjds"
@@ -218,7 +229,7 @@ exports[`<FilterBar/> > should show match snapshot 1`] = `
                 <span
                   class="sc-ftvSup khYnqs"
                 >
-                  Other Filter
+                  Other Filter 1
                 </span>
               </div>
               <div
@@ -226,6 +237,7 @@ exports[`<FilterBar/> > should show match snapshot 1`] = `
               >
                 <div
                   class="sc-gKXOVf knmpTR"
+                  data-cy="filter-option-others-1"
                 >
                   <img
                     class="sc-iBkjds"
@@ -235,7 +247,7 @@ exports[`<FilterBar/> > should show match snapshot 1`] = `
                 <span
                   class="sc-ftvSup khYnqs"
                 >
-                  Other Filter
+                  Other Filter 2
                 </span>
               </div>
               <div
@@ -243,6 +255,7 @@ exports[`<FilterBar/> > should show match snapshot 1`] = `
               >
                 <div
                   class="sc-gKXOVf knmpTR"
+                  data-cy="filter-option-others-2"
                 >
                   <img
                     class="sc-iBkjds"
@@ -252,7 +265,7 @@ exports[`<FilterBar/> > should show match snapshot 1`] = `
                 <span
                   class="sc-ftvSup khYnqs"
                 >
-                  Other Filter
+                  Other Filter 3
                 </span>
               </div>
             </div>
@@ -273,7 +286,9 @@ exports[`<FilterBar/> > should show match snapshot 1`] = `
         >
           <input
             class="sc-evZas gYIiKi"
+            data-cy="home-search-filter"
             placeholder="Search..."
+            value="some text"
           />
           <div
             class="sc-breuTD hJnmYB"
@@ -286,6 +301,7 @@ exports[`<FilterBar/> > should show match snapshot 1`] = `
         </div>
         <div
           class="sc-dkzDqf kFWBN"
+          data-cy="filter-button"
         >
           <img
             class="sc-hKMtZM iTFQlP"
@@ -308,13 +324,14 @@ exports[`<FilterBar/> > should show match snapshot 1`] = `
             class="sc-kDDrLX ifrIVl"
           />
           <div
-            class="sc-iqcoie hkcSAG"
+            class="sc-iqcoie doJWYy"
           >
             <div
               class="sc-jSMfEi dTXaiz"
             >
               <div
                 class="sc-gKXOVf knmpTR"
+                data-cy="filter-option-posts-0"
               >
                 <img
                   class="sc-iBkjds"
@@ -332,6 +349,7 @@ exports[`<FilterBar/> > should show match snapshot 1`] = `
             >
               <div
                 class="sc-gKXOVf knmpTR"
+                data-cy="filter-option-posts-1"
               >
                 <img
                   class="sc-iBkjds"
@@ -349,6 +367,7 @@ exports[`<FilterBar/> > should show match snapshot 1`] = `
             >
               <div
                 class="sc-gKXOVf knmpTR"
+                data-cy="filter-option-posts-2"
               >
                 <img
                   class="sc-iBkjds"
@@ -375,13 +394,14 @@ exports[`<FilterBar/> > should show match snapshot 1`] = `
             class="sc-kDDrLX ifrIVl"
           />
           <div
-            class="sc-iqcoie hkcSAG"
+            class="sc-iqcoie doJWYy"
           >
             <div
               class="sc-jSMfEi dTXaiz"
             >
               <div
                 class="sc-gKXOVf knmpTR"
+                data-cy="filter-option-groups-0"
               >
                 <img
                   class="sc-iBkjds"
@@ -399,6 +419,7 @@ exports[`<FilterBar/> > should show match snapshot 1`] = `
             >
               <div
                 class="sc-gKXOVf knmpTR"
+                data-cy="filter-option-groups-1"
               >
                 <img
                   class="sc-iBkjds"
@@ -416,6 +437,7 @@ exports[`<FilterBar/> > should show match snapshot 1`] = `
             >
               <div
                 class="sc-gKXOVf knmpTR"
+                data-cy="filter-option-groups-2"
               >
                 <img
                   class="sc-iBkjds"
@@ -433,6 +455,7 @@ exports[`<FilterBar/> > should show match snapshot 1`] = `
             >
               <div
                 class="sc-gKXOVf knmpTR"
+                data-cy="filter-option-groups-3"
               >
                 <img
                   class="sc-iBkjds"
@@ -459,13 +482,14 @@ exports[`<FilterBar/> > should show match snapshot 1`] = `
             class="sc-kDDrLX ifrIVl"
           />
           <div
-            class="sc-iqcoie hkcSAG"
+            class="sc-iqcoie doJWYy"
           >
             <div
               class="sc-jSMfEi dTXaiz"
             >
               <div
                 class="sc-gKXOVf knmpTR"
+                data-cy="filter-option-others-0"
               >
                 <img
                   class="sc-iBkjds"
@@ -475,7 +499,7 @@ exports[`<FilterBar/> > should show match snapshot 1`] = `
               <span
                 class="sc-ftvSup khYnqs"
               >
-                Other Filter
+                Other Filter 1
               </span>
             </div>
             <div
@@ -483,6 +507,7 @@ exports[`<FilterBar/> > should show match snapshot 1`] = `
             >
               <div
                 class="sc-gKXOVf knmpTR"
+                data-cy="filter-option-others-1"
               >
                 <img
                   class="sc-iBkjds"
@@ -492,7 +517,7 @@ exports[`<FilterBar/> > should show match snapshot 1`] = `
               <span
                 class="sc-ftvSup khYnqs"
               >
-                Other Filter
+                Other Filter 2
               </span>
             </div>
             <div
@@ -500,6 +525,7 @@ exports[`<FilterBar/> > should show match snapshot 1`] = `
             >
               <div
                 class="sc-gKXOVf knmpTR"
+                data-cy="filter-option-others-2"
               >
                 <img
                   class="sc-iBkjds"
@@ -509,7 +535,7 @@ exports[`<FilterBar/> > should show match snapshot 1`] = `
               <span
                 class="sc-ftvSup khYnqs"
               >
-                Other Filter
+                Other Filter 3
               </span>
             </div>
           </div>

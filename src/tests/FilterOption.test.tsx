@@ -4,7 +4,9 @@ import FilterOption from '../components/FilterOption'
 
 describe('<FilterOption/>', () => {
   it('should show match snapshot', () => {
-    const component = render(<FilterOption filterLabel="Some filter label" />)
+    const component = render(
+      <FilterOption filterLabel="Some filter label" type="some type" handleFilters={() => {}} />
+    )
 
     expect(component).toMatchSnapshot()
   })

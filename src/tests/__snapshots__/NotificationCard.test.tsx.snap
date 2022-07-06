@@ -6,7 +6,7 @@ exports[`<NotificationCard/> > should show match snapshot 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="sc-dkzDqf kZvvyV"
+        class="sc-dkzDqf hXIkkB"
       >
         <img
           class="sc-hKMtZM eaHsLj"
@@ -40,7 +40,7 @@ exports[`<NotificationCard/> > should show match snapshot 1`] = `
   </body>,
   "container": <div>
     <div
-      class="sc-dkzDqf kZvvyV"
+      class="sc-dkzDqf hXIkkB"
     >
       <img
         class="sc-hKMtZM eaHsLj"

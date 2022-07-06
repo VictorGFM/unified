@@ -2,7 +2,7 @@ import { AlfredoPhotoIcon, ContactPhotoIcon } from '../../assets'
 import { ContactInfo } from '../../components/ContactCard/ContactCard'
 import dayjs from 'dayjs'
 
-const defaultMessages = {
+export const defaultMessages = {
   instagram: [
     {
       date: dayjs('2021-09-02'),

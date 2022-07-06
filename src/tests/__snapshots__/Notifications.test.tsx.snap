@@ -9,7 +9,7 @@ exports[`<Notifications/> > should show match snapshot 1`] = `
         class="sc-crXcEl keWfMn"
       >
         <div
-          class="sc-evZas beQXNi"
+          class="sc-evZas QXptK"
         >
           <span
             class="sc-breuTD hpSfOq"
@@ -72,10 +72,11 @@ exports[`<Notifications/> > should show match snapshot 1`] = `
           </div>
         </div>
         <div
-          class="sc-fnykZs bpxLZU"
+          class="sc-fnykZs gvyPkA"
         >
           <div
-            class="sc-dkzDqf kZvvyV"
+            class="sc-dkzDqf hXIkkB"
+            data-cy="notificaiton-card-0"
           >
             <img
               class="sc-hKMtZM eaHsLj"
@@ -106,7 +107,8 @@ exports[`<Notifications/> > should show match snapshot 1`] = `
             </div>
           </div>
           <div
-            class="sc-dkzDqf kZvvyV"
+            class="sc-dkzDqf hXIkkB"
+            data-cy="notificaiton-card-1"
           >
             <img
               class="sc-hKMtZM eaHsLj"
@@ -137,7 +139,8 @@ exports[`<Notifications/> > should show match snapshot 1`] = `
             </div>
           </div>
           <div
-            class="sc-dkzDqf kZvvyV"
+            class="sc-dkzDqf hXIkkB"
+            data-cy="notificaiton-card-2"
           >
             <img
               class="sc-hKMtZM eaHsLj"
@@ -168,7 +171,8 @@ exports[`<Notifications/> > should show match snapshot 1`] = `
             </div>
           </div>
           <div
-            class="sc-dkzDqf kZvvyV"
+            class="sc-dkzDqf hXIkkB"
+            data-cy="notificaiton-card-3"
           >
             <img
               class="sc-hKMtZM eaHsLj"
@@ -199,7 +203,8 @@ exports[`<Notifications/> > should show match snapshot 1`] = `
             </div>
           </div>
           <div
-            class="sc-dkzDqf kZvvyV"
+            class="sc-dkzDqf hXIkkB"
+            data-cy="notificaiton-card-4"
           >
             <img
               class="sc-hKMtZM eaHsLj"
@@ -238,7 +243,7 @@ exports[`<Notifications/> > should show match snapshot 1`] = `
       class="sc-crXcEl keWfMn"
     >
       <div
-        class="sc-evZas beQXNi"
+        class="sc-evZas QXptK"
       >
         <span
           class="sc-breuTD hpSfOq"
@@ -301,10 +306,11 @@ exports[`<Notifications/> > should show match snapshot 1`] = `
         </div>
       </div>
       <div
-        class="sc-fnykZs bpxLZU"
+        class="sc-fnykZs gvyPkA"
       >
         <div
-          class="sc-dkzDqf kZvvyV"
+          class="sc-dkzDqf hXIkkB"
+          data-cy="notificaiton-card-0"
         >
           <img
             class="sc-hKMtZM eaHsLj"
@@ -335,7 +341,8 @@ exports[`<Notifications/> > should show match snapshot 1`] = `
           </div>
         </div>
         <div
-          class="sc-dkzDqf kZvvyV"
+          class="sc-dkzDqf hXIkkB"
+          data-cy="notificaiton-card-1"
         >
           <img
             class="sc-hKMtZM eaHsLj"
@@ -366,7 +373,8 @@ exports[`<Notifications/> > should show match snapshot 1`] = `
           </div>
         </div>
         <div
-          class="sc-dkzDqf kZvvyV"
+          class="sc-dkzDqf hXIkkB"
+          data-cy="notificaiton-card-2"
         >
           <img
             class="sc-hKMtZM eaHsLj"
@@ -397,7 +405,8 @@ exports[`<Notifications/> > should show match snapshot 1`] = `
           </div>
         </div>
         <div
-          class="sc-dkzDqf kZvvyV"
+          class="sc-dkzDqf hXIkkB"
+          data-cy="notificaiton-card-3"
         >
           <img
             class="sc-hKMtZM eaHsLj"
@@ -428,7 +437,8 @@ exports[`<Notifications/> > should show match snapshot 1`] = `
           </div>
         </div>
         <div
-          class="sc-dkzDqf kZvvyV"
+          class="sc-dkzDqf hXIkkB"
+          data-cy="notificaiton-card-4"
         >
           <img
             class="sc-hKMtZM eaHsLj"

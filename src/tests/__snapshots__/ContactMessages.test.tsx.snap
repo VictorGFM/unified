@@ -18,7 +18,9 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
         >
           <input
             class="sc-kDDrLX iJSCxc"
+            data-cy="message-search-bar"
             placeholder="Find a message..."
+            value=""
           />
           <div
             class="sc-iqcoie eHfVMJ"
@@ -30,10 +32,46 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
           </div>
         </div>
         <div
-          class="sc-hAZoDl iRIqKc"
+          class="sc-hAZoDl lbYHik"
         >
           <div
+            class="sc-gsnTZi iVhMpq"
+            data-cy="contact-card-0"
+          >
+            <div
+              class="sc-dkzDqf dLnJYs"
+            >
+              <img
+                class="sc-hKMtZM dRJluC"
+                src="/src/assets/icons/ContactPhotoIcon.svg"
+              />
+              <div
+                class="sc-eCYdqJ bxYoVj"
+              />
+            </div>
+            <div
+              class="sc-jSMfEi gRdfJM"
+            >
+              <div
+                class="sc-gKXOVf iggmwT"
+              >
+                Contact Name
+              </div>
+              <span
+                class="sc-iBkjds bbjXlC"
+              >
+                Some message...
+              </span>
+              <span
+                class="sc-ftvSup gpuNio"
+              >
+                Dec 15, 2021
+              </span>
+            </div>
+          </div>
+          <div
             class="sc-gsnTZi chrWPs"
+            data-cy="contact-card-1"
           >
             <div
               class="sc-dkzDqf dLnJYs"
@@ -51,7 +89,9 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
             >
               <div
                 class="sc-gKXOVf iggmwT"
-              />
+              >
+                Alfredo
+              </div>
               <span
                 class="sc-iBkjds bbjXlC"
               >
@@ -65,44 +105,13 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
               <div
                 class="sc-bczRLJ jTkryC sc-papXJ gfACav"
               >
-                11
+                5
               </div>
             </div>
           </div>
           <div
-            class="sc-gsnTZi iVhMpq"
-          >
-            <div
-              class="sc-dkzDqf dLnJYs"
-            >
-              <img
-                class="sc-hKMtZM dRJluC"
-                src="/src/assets/icons/ContactPhotoIcon.svg"
-              />
-              <div
-                class="sc-eCYdqJ bxYoVj"
-              />
-            </div>
-            <div
-              class="sc-jSMfEi gRdfJM"
-            >
-              <div
-                class="sc-gKXOVf iggmwT"
-              />
-              <span
-                class="sc-iBkjds bbjXlC"
-              >
-                Some message...
-              </span>
-              <span
-                class="sc-ftvSup gpuNio"
-              >
-                Dec 15, 2021
-              </span>
-            </div>
-          </div>
-          <div
             class="sc-gsnTZi chrWPs"
+            data-cy="contact-card-2"
           >
             <div
               class="sc-dkzDqf dLnJYs"
@@ -120,7 +129,9 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
             >
               <div
                 class="sc-gKXOVf iggmwT"
-              />
+              >
+                Contact Name
+              </div>
               <span
                 class="sc-iBkjds bbjXlC"
               >
@@ -140,6 +151,7 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
           </div>
           <div
             class="sc-gsnTZi iVhMpq"
+            data-cy="contact-card-3"
           >
             <div
               class="sc-dkzDqf dLnJYs"
@@ -157,7 +169,9 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
             >
               <div
                 class="sc-gKXOVf iggmwT"
-              />
+              >
+                Contact Name
+              </div>
               <span
                 class="sc-iBkjds bbjXlC"
               >
@@ -172,6 +186,7 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
           </div>
           <div
             class="sc-gsnTZi iVhMpq"
+            data-cy="contact-card-4"
           >
             <div
               class="sc-dkzDqf dLnJYs"
@@ -189,7 +204,9 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
             >
               <div
                 class="sc-gKXOVf iggmwT"
-              />
+              >
+                Contact Name
+              </div>
               <span
                 class="sc-iBkjds bbjXlC"
               >
@@ -204,6 +221,7 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
           </div>
           <div
             class="sc-gsnTZi iVhMpq"
+            data-cy="contact-card-5"
           >
             <div
               class="sc-dkzDqf dLnJYs"
@@ -221,7 +239,9 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
             >
               <div
                 class="sc-gKXOVf iggmwT"
-              />
+              >
+                Contact Name
+              </div>
               <span
                 class="sc-iBkjds bbjXlC"
               >
@@ -236,6 +256,7 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
           </div>
           <div
             class="sc-gsnTZi iVhMpq"
+            data-cy="contact-card-6"
           >
             <div
               class="sc-dkzDqf dLnJYs"
@@ -253,7 +274,9 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
             >
               <div
                 class="sc-gKXOVf iggmwT"
-              />
+              >
+                Contact Name
+              </div>
               <span
                 class="sc-iBkjds bbjXlC"
               >
@@ -268,6 +291,7 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
           </div>
           <div
             class="sc-gsnTZi iVhMpq"
+            data-cy="contact-card-7"
           >
             <div
               class="sc-dkzDqf dLnJYs"
@@ -285,7 +309,9 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
             >
               <div
                 class="sc-gKXOVf iggmwT"
-              />
+              >
+                Contact Name
+              </div>
               <span
                 class="sc-iBkjds bbjXlC"
               >
@@ -300,6 +326,7 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
           </div>
           <div
             class="sc-gsnTZi iVhMpq"
+            data-cy="contact-card-8"
           >
             <div
               class="sc-dkzDqf dLnJYs"
@@ -317,7 +344,9 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
             >
               <div
                 class="sc-gKXOVf iggmwT"
-              />
+              >
+                Contact Name
+              </div>
               <span
                 class="sc-iBkjds bbjXlC"
               >
@@ -332,6 +361,7 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
           </div>
           <div
             class="sc-gsnTZi iVhMpq"
+            data-cy="contact-card-9"
           >
             <div
               class="sc-dkzDqf dLnJYs"
@@ -349,7 +379,9 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
             >
               <div
                 class="sc-gKXOVf iggmwT"
-              />
+              >
+                Contact Name
+              </div>
               <span
                 class="sc-iBkjds bbjXlC"
               >
@@ -364,6 +396,7 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
           </div>
           <div
             class="sc-gsnTZi iVhMpq"
+            data-cy="contact-card-10"
           >
             <div
               class="sc-dkzDqf dLnJYs"
@@ -381,7 +414,9 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
             >
               <div
                 class="sc-gKXOVf iggmwT"
-              />
+              >
+                Contact Name
+              </div>
               <span
                 class="sc-iBkjds bbjXlC"
               >
@@ -396,6 +431,7 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
           </div>
           <div
             class="sc-gsnTZi iVhMpq"
+            data-cy="contact-card-11"
           >
             <div
               class="sc-dkzDqf dLnJYs"
@@ -413,7 +449,9 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
             >
               <div
                 class="sc-gKXOVf iggmwT"
-              />
+              >
+                Contact Name
+              </div>
               <span
                 class="sc-iBkjds bbjXlC"
               >
@@ -428,6 +466,7 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
           </div>
           <div
             class="sc-gsnTZi iVhMpq"
+            data-cy="contact-card-12"
           >
             <div
               class="sc-dkzDqf dLnJYs"
@@ -445,7 +484,9 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
             >
               <div
                 class="sc-gKXOVf iggmwT"
-              />
+              >
+                Contact Name
+              </div>
               <span
                 class="sc-iBkjds bbjXlC"
               >
@@ -460,6 +501,7 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
           </div>
           <div
             class="sc-gsnTZi iVhMpq"
+            data-cy="contact-card-13"
           >
             <div
               class="sc-dkzDqf dLnJYs"
@@ -477,7 +519,9 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
             >
               <div
                 class="sc-gKXOVf iggmwT"
-              />
+              >
+                Contact Name
+              </div>
               <span
                 class="sc-iBkjds bbjXlC"
               >
@@ -492,6 +536,7 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
           </div>
           <div
             class="sc-gsnTZi iVhMpq"
+            data-cy="contact-card-14"
           >
             <div
               class="sc-dkzDqf dLnJYs"
@@ -509,7 +554,9 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
             >
               <div
                 class="sc-gKXOVf iggmwT"
-              />
+              >
+                Contact Name
+              </div>
               <span
                 class="sc-iBkjds bbjXlC"
               >
@@ -524,6 +571,7 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
           </div>
           <div
             class="sc-gsnTZi iVhMpq"
+            data-cy="contact-card-15"
           >
             <div
               class="sc-dkzDqf dLnJYs"
@@ -541,7 +589,9 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
             >
               <div
                 class="sc-gKXOVf iggmwT"
-              />
+              >
+                Contact Name
+              </div>
               <span
                 class="sc-iBkjds bbjXlC"
               >
@@ -556,6 +606,7 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
           </div>
           <div
             class="sc-gsnTZi iVhMpq"
+            data-cy="contact-card-16"
           >
             <div
               class="sc-dkzDqf dLnJYs"
@@ -573,7 +624,9 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
             >
               <div
                 class="sc-gKXOVf iggmwT"
-              />
+              >
+                Contact Name
+              </div>
               <span
                 class="sc-iBkjds bbjXlC"
               >
@@ -588,6 +641,7 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
           </div>
           <div
             class="sc-gsnTZi iVhMpq"
+            data-cy="contact-card-17"
           >
             <div
               class="sc-dkzDqf dLnJYs"
@@ -605,7 +659,9 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
             >
               <div
                 class="sc-gKXOVf iggmwT"
-              />
+              >
+                Contact Name
+              </div>
               <span
                 class="sc-iBkjds bbjXlC"
               >
@@ -620,6 +676,7 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
           </div>
           <div
             class="sc-gsnTZi iVhMpq"
+            data-cy="contact-card-18"
           >
             <div
               class="sc-dkzDqf dLnJYs"
@@ -637,7 +694,9 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
             >
               <div
                 class="sc-gKXOVf iggmwT"
-              />
+              >
+                Contact Name
+              </div>
               <span
                 class="sc-iBkjds bbjXlC"
               >
@@ -652,6 +711,7 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
           </div>
           <div
             class="sc-gsnTZi iVhMpq"
+            data-cy="contact-card-19"
           >
             <div
               class="sc-dkzDqf dLnJYs"
@@ -669,7 +729,9 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
             >
               <div
                 class="sc-gKXOVf iggmwT"
-              />
+              >
+                Contact Name
+              </div>
               <span
                 class="sc-iBkjds bbjXlC"
               >
@@ -684,6 +746,7 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
           </div>
           <div
             class="sc-gsnTZi iVhMpq"
+            data-cy="contact-card-20"
           >
             <div
               class="sc-dkzDqf dLnJYs"
@@ -701,7 +764,9 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
             >
               <div
                 class="sc-gKXOVf iggmwT"
-              />
+              >
+                Contact Name
+              </div>
               <span
                 class="sc-iBkjds bbjXlC"
               >
@@ -716,6 +781,7 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
           </div>
           <div
             class="sc-gsnTZi iVhMpq"
+            data-cy="contact-card-21"
           >
             <div
               class="sc-dkzDqf dLnJYs"
@@ -733,7 +799,9 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
             >
               <div
                 class="sc-gKXOVf iggmwT"
-              />
+              >
+                Contact Name
+              </div>
               <span
                 class="sc-iBkjds bbjXlC"
               >
@@ -748,6 +816,7 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
           </div>
           <div
             class="sc-gsnTZi iVhMpq"
+            data-cy="contact-card-22"
           >
             <div
               class="sc-dkzDqf dLnJYs"
@@ -765,7 +834,9 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
             >
               <div
                 class="sc-gKXOVf iggmwT"
-              />
+              >
+                Contact Name
+              </div>
               <span
                 class="sc-iBkjds bbjXlC"
               >
@@ -780,6 +851,7 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
           </div>
           <div
             class="sc-gsnTZi iVhMpq"
+            data-cy="contact-card-23"
           >
             <div
               class="sc-dkzDqf dLnJYs"
@@ -797,7 +869,9 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
             >
               <div
                 class="sc-gKXOVf iggmwT"
-              />
+              >
+                Contact Name
+              </div>
               <span
                 class="sc-iBkjds bbjXlC"
               >
@@ -828,7 +902,9 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
       >
         <input
           class="sc-kDDrLX iJSCxc"
+          data-cy="message-search-bar"
           placeholder="Find a message..."
+          value=""
         />
         <div
           class="sc-iqcoie eHfVMJ"
@@ -840,10 +916,46 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
         </div>
       </div>
       <div
-        class="sc-hAZoDl iRIqKc"
+        class="sc-hAZoDl lbYHik"
       >
         <div
+          class="sc-gsnTZi iVhMpq"
+          data-cy="contact-card-0"
+        >
+          <div
+            class="sc-dkzDqf dLnJYs"
+          >
+            <img
+              class="sc-hKMtZM dRJluC"
+              src="/src/assets/icons/ContactPhotoIcon.svg"
+            />
+            <div
+              class="sc-eCYdqJ bxYoVj"
+            />
+          </div>
+          <div
+            class="sc-jSMfEi gRdfJM"
+          >
+            <div
+              class="sc-gKXOVf iggmwT"
+            >
+              Contact Name
+            </div>
+            <span
+              class="sc-iBkjds bbjXlC"
+            >
+              Some message...
+            </span>
+            <span
+              class="sc-ftvSup gpuNio"
+            >
+              Dec 15, 2021
+            </span>
+          </div>
+        </div>
+        <div
           class="sc-gsnTZi chrWPs"
+          data-cy="contact-card-1"
         >
           <div
             class="sc-dkzDqf dLnJYs"
@@ -861,7 +973,9 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
           >
             <div
               class="sc-gKXOVf iggmwT"
-            />
+            >
+              Alfredo
+            </div>
             <span
               class="sc-iBkjds bbjXlC"
             >
@@ -875,44 +989,13 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
             <div
               class="sc-bczRLJ jTkryC sc-papXJ gfACav"
             >
-              11
+              5
             </div>
           </div>
         </div>
         <div
-          class="sc-gsnTZi iVhMpq"
-        >
-          <div
-            class="sc-dkzDqf dLnJYs"
-          >
-            <img
-              class="sc-hKMtZM dRJluC"
-              src="/src/assets/icons/ContactPhotoIcon.svg"
-            />
-            <div
-              class="sc-eCYdqJ bxYoVj"
-            />
-          </div>
-          <div
-            class="sc-jSMfEi gRdfJM"
-          >
-            <div
-              class="sc-gKXOVf iggmwT"
-            />
-            <span
-              class="sc-iBkjds bbjXlC"
-            >
-              Some message...
-            </span>
-            <span
-              class="sc-ftvSup gpuNio"
-            >
-              Dec 15, 2021
-            </span>
-          </div>
-        </div>
-        <div
           class="sc-gsnTZi chrWPs"
+          data-cy="contact-card-2"
         >
           <div
             class="sc-dkzDqf dLnJYs"
@@ -930,7 +1013,9 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
           >
             <div
               class="sc-gKXOVf iggmwT"
-            />
+            >
+              Contact Name
+            </div>
             <span
               class="sc-iBkjds bbjXlC"
             >
@@ -950,6 +1035,7 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
         </div>
         <div
           class="sc-gsnTZi iVhMpq"
+          data-cy="contact-card-3"
         >
           <div
             class="sc-dkzDqf dLnJYs"
@@ -967,7 +1053,9 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
           >
             <div
               class="sc-gKXOVf iggmwT"
-            />
+            >
+              Contact Name
+            </div>
             <span
               class="sc-iBkjds bbjXlC"
             >
@@ -982,6 +1070,7 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
         </div>
         <div
           class="sc-gsnTZi iVhMpq"
+          data-cy="contact-card-4"
         >
           <div
             class="sc-dkzDqf dLnJYs"
@@ -999,7 +1088,9 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
           >
             <div
               class="sc-gKXOVf iggmwT"
-            />
+            >
+              Contact Name
+            </div>
             <span
               class="sc-iBkjds bbjXlC"
             >
@@ -1014,6 +1105,7 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
         </div>
         <div
           class="sc-gsnTZi iVhMpq"
+          data-cy="contact-card-5"
         >
           <div
             class="sc-dkzDqf dLnJYs"
@@ -1031,7 +1123,9 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
           >
             <div
               class="sc-gKXOVf iggmwT"
-            />
+            >
+              Contact Name
+            </div>
             <span
               class="sc-iBkjds bbjXlC"
             >
@@ -1046,6 +1140,7 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
         </div>
         <div
           class="sc-gsnTZi iVhMpq"
+          data-cy="contact-card-6"
         >
           <div
             class="sc-dkzDqf dLnJYs"
@@ -1063,7 +1158,9 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
           >
             <div
               class="sc-gKXOVf iggmwT"
-            />
+            >
+              Contact Name
+            </div>
             <span
               class="sc-iBkjds bbjXlC"
             >
@@ -1078,6 +1175,7 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
         </div>
         <div
           class="sc-gsnTZi iVhMpq"
+          data-cy="contact-card-7"
         >
           <div
             class="sc-dkzDqf dLnJYs"
@@ -1095,7 +1193,9 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
           >
             <div
               class="sc-gKXOVf iggmwT"
-            />
+            >
+              Contact Name
+            </div>
             <span
               class="sc-iBkjds bbjXlC"
             >
@@ -1110,6 +1210,7 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
         </div>
         <div
           class="sc-gsnTZi iVhMpq"
+          data-cy="contact-card-8"
         >
           <div
             class="sc-dkzDqf dLnJYs"
@@ -1127,7 +1228,9 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
           >
             <div
               class="sc-gKXOVf iggmwT"
-            />
+            >
+              Contact Name
+            </div>
             <span
               class="sc-iBkjds bbjXlC"
             >
@@ -1142,6 +1245,7 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
         </div>
         <div
           class="sc-gsnTZi iVhMpq"
+          data-cy="contact-card-9"
         >
           <div
             class="sc-dkzDqf dLnJYs"
@@ -1159,7 +1263,9 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
           >
             <div
               class="sc-gKXOVf iggmwT"
-            />
+            >
+              Contact Name
+            </div>
             <span
               class="sc-iBkjds bbjXlC"
             >
@@ -1174,6 +1280,7 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
         </div>
         <div
           class="sc-gsnTZi iVhMpq"
+          data-cy="contact-card-10"
         >
           <div
             class="sc-dkzDqf dLnJYs"
@@ -1191,7 +1298,9 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
           >
             <div
               class="sc-gKXOVf iggmwT"
-            />
+            >
+              Contact Name
+            </div>
             <span
               class="sc-iBkjds bbjXlC"
             >
@@ -1206,6 +1315,7 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
         </div>
         <div
           class="sc-gsnTZi iVhMpq"
+          data-cy="contact-card-11"
         >
           <div
             class="sc-dkzDqf dLnJYs"
@@ -1223,7 +1333,9 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
           >
             <div
               class="sc-gKXOVf iggmwT"
-            />
+            >
+              Contact Name
+            </div>
             <span
               class="sc-iBkjds bbjXlC"
             >
@@ -1238,6 +1350,7 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
         </div>
         <div
           class="sc-gsnTZi iVhMpq"
+          data-cy="contact-card-12"
         >
           <div
             class="sc-dkzDqf dLnJYs"
@@ -1255,7 +1368,9 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
           >
             <div
               class="sc-gKXOVf iggmwT"
-            />
+            >
+              Contact Name
+            </div>
             <span
               class="sc-iBkjds bbjXlC"
             >
@@ -1270,6 +1385,7 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
         </div>
         <div
           class="sc-gsnTZi iVhMpq"
+          data-cy="contact-card-13"
         >
           <div
             class="sc-dkzDqf dLnJYs"
@@ -1287,7 +1403,9 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
           >
             <div
               class="sc-gKXOVf iggmwT"
-            />
+            >
+              Contact Name
+            </div>
             <span
               class="sc-iBkjds bbjXlC"
             >
@@ -1302,6 +1420,7 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
         </div>
         <div
           class="sc-gsnTZi iVhMpq"
+          data-cy="contact-card-14"
         >
           <div
             class="sc-dkzDqf dLnJYs"
@@ -1319,7 +1438,9 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
           >
             <div
               class="sc-gKXOVf iggmwT"
-            />
+            >
+              Contact Name
+            </div>
             <span
               class="sc-iBkjds bbjXlC"
             >
@@ -1334,6 +1455,7 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
         </div>
         <div
           class="sc-gsnTZi iVhMpq"
+          data-cy="contact-card-15"
         >
           <div
             class="sc-dkzDqf dLnJYs"
@@ -1351,7 +1473,9 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
           >
             <div
               class="sc-gKXOVf iggmwT"
-            />
+            >
+              Contact Name
+            </div>
             <span
               class="sc-iBkjds bbjXlC"
             >
@@ -1366,6 +1490,7 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
         </div>
         <div
           class="sc-gsnTZi iVhMpq"
+          data-cy="contact-card-16"
         >
           <div
             class="sc-dkzDqf dLnJYs"
@@ -1383,7 +1508,9 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
           >
             <div
               class="sc-gKXOVf iggmwT"
-            />
+            >
+              Contact Name
+            </div>
             <span
               class="sc-iBkjds bbjXlC"
             >
@@ -1398,6 +1525,7 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
         </div>
         <div
           class="sc-gsnTZi iVhMpq"
+          data-cy="contact-card-17"
         >
           <div
             class="sc-dkzDqf dLnJYs"
@@ -1415,7 +1543,9 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
           >
             <div
               class="sc-gKXOVf iggmwT"
-            />
+            >
+              Contact Name
+            </div>
             <span
               class="sc-iBkjds bbjXlC"
             >
@@ -1430,6 +1560,7 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
         </div>
         <div
           class="sc-gsnTZi iVhMpq"
+          data-cy="contact-card-18"
         >
           <div
             class="sc-dkzDqf dLnJYs"
@@ -1447,7 +1578,9 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
           >
             <div
               class="sc-gKXOVf iggmwT"
-            />
+            >
+              Contact Name
+            </div>
             <span
               class="sc-iBkjds bbjXlC"
             >
@@ -1462,6 +1595,7 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
         </div>
         <div
           class="sc-gsnTZi iVhMpq"
+          data-cy="contact-card-19"
         >
           <div
             class="sc-dkzDqf dLnJYs"
@@ -1479,7 +1613,9 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
           >
             <div
               class="sc-gKXOVf iggmwT"
-            />
+            >
+              Contact Name
+            </div>
             <span
               class="sc-iBkjds bbjXlC"
             >
@@ -1494,6 +1630,7 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
         </div>
         <div
           class="sc-gsnTZi iVhMpq"
+          data-cy="contact-card-20"
         >
           <div
             class="sc-dkzDqf dLnJYs"
@@ -1511,7 +1648,9 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
           >
             <div
               class="sc-gKXOVf iggmwT"
-            />
+            >
+              Contact Name
+            </div>
             <span
               class="sc-iBkjds bbjXlC"
             >
@@ -1526,6 +1665,7 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
         </div>
         <div
           class="sc-gsnTZi iVhMpq"
+          data-cy="contact-card-21"
         >
           <div
             class="sc-dkzDqf dLnJYs"
@@ -1543,7 +1683,9 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
           >
             <div
               class="sc-gKXOVf iggmwT"
-            />
+            >
+              Contact Name
+            </div>
             <span
               class="sc-iBkjds bbjXlC"
             >
@@ -1558,6 +1700,7 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
         </div>
         <div
           class="sc-gsnTZi iVhMpq"
+          data-cy="contact-card-22"
         >
           <div
             class="sc-dkzDqf dLnJYs"
@@ -1575,7 +1718,9 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
           >
             <div
               class="sc-gKXOVf iggmwT"
-            />
+            >
+              Contact Name
+            </div>
             <span
               class="sc-iBkjds bbjXlC"
             >
@@ -1590,6 +1735,7 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
         </div>
         <div
           class="sc-gsnTZi iVhMpq"
+          data-cy="contact-card-23"
         >
           <div
             class="sc-dkzDqf dLnJYs"
@@ -1607,7 +1753,9 @@ exports[`<ContactMessages/> > should show match snapshot 1`] = `
           >
             <div
               class="sc-gKXOVf iggmwT"
-            />
+            >
+              Contact Name
+            </div>
             <span
               class="sc-iBkjds bbjXlC"
             >
